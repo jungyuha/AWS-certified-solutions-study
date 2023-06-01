@@ -1,5 +1,13 @@
 # AWS 결제 및 비용관리 1 : AWS budget
 
+**기록 ✍️**
+
+#### author : jung yuha
+
+#### first registered : 2023-06-01 Thu
+
+#### last modified : 2023-06-01 Thu
+
 ## AWS Budgets(예산)
 
 ### 1) 경로
@@ -8,7 +16,7 @@
 
 ### 2) 예산 생성
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (12).png>)
 
 **정해진 비용 기준으로 추적하기**
 
@@ -16,7 +24,7 @@
 
 ### 3) 세부 정보 입력
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="563"><figcaption><p>세부정보 입력</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt="" width="563"><figcaption><p>세부정보 입력</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
