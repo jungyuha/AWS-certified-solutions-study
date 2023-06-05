@@ -29,7 +29,7 @@
 
 위 두가지 트래픽을 인바운드 규칙과 아웃바운드 규칙으로 제어를 하게된다.
 
-<figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption><p> 인바운드 규칙 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (2) (1).png" alt=""><figcaption><p> 인바운드 규칙 </p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p> 아웃바운드 규칙</p></figcaption></figure>
 

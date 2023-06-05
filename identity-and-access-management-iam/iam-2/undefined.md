@@ -91,7 +91,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 인스턴스를 선택해 인스턴스 종료 버튼을 누르면 마찬가지로 오류가 뜬다.
 
-<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p> 인스턴스 종료 버튼</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1) (2).png" alt=""><figcaption><p> 인스턴스 종료 버튼</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption><p> 인스턴스 종료 제한</p></figcaption></figure>
 
