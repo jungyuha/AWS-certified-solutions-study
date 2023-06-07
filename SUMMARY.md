@@ -10,3 +10,4 @@
     * [실습](aws-start/aws-1/undefined.md)
 * [Identity and Access Management(IAM)](identity-and-access-management-iam/README.md)
   * [IAM 개요](identity-and-access-management-iam/iam.md)
+  * [\[실습\] IAM 유저 , 그룹](identity-and-access-management-iam/iam-1.md)

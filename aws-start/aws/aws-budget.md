@@ -12,21 +12,21 @@
 
 ### 1) 경로
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2) 예산 생성
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 **정해진 비용 기준으로 추적하기**
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 3) 세부 정보 입력
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="563"><figcaption><p>세부정보 입력</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt="" width="563"><figcaption><p>세부정보 입력</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 4) 알림 생성
 
@@ -49,5 +49,5 @@ _**알림 임계값 추가**_ 선택
 
 지금은 작업이 없으니 그냥 작업없이 생성한다. 생성된 예산은 다음 메뉴에서 확인 가능
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure>
 
