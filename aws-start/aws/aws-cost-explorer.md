@@ -12,7 +12,7 @@
 
 ### 1) 경로
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 2) 비용 대시보드
 
