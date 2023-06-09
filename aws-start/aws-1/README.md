@@ -59,4 +59,4 @@
 
 #### 엣지 로케이션을 사용한 전송
 
-<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -13,3 +13,5 @@
   * [\[실습\] IAM 유저 , 그룹](identity-and-access-management-iam/iam-1.md)
   * [IAM 정책](identity-and-access-management-iam/iam-2/README.md)
     * [실습](identity-and-access-management-iam/iam-2/undefined.md)
+  * [IAM 역할](identity-and-access-management-iam/iam-3/README.md)
+    * [실습](identity-and-access-management-iam/iam-3/undefined.md)

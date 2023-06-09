@@ -40,7 +40,7 @@
 
 리전과 상관없이 IAM 서비스를 사용한다.
 
-<figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>IAM 서비스</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (1) (1).png" alt=""><figcaption><p>IAM 서비스</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p>IAM 대시보드</p></figcaption></figure>
 
