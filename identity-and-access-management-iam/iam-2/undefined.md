@@ -28,7 +28,7 @@ EC2 검색 > EC2FullAccess 권한 ( EC2에 대한 모든 권한을 가짐 )&#x20
 
 정책을 부여한다.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p> 정책 부여</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p> 정책 부여</p></figcaption></figure>
 
 ## \[2] IAM 사용자로 로그인하여 부여받은 권한 확인하기
 
