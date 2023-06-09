@@ -50,7 +50,7 @@ S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
 신뢰 정책 편집을 통해서 이 역할을 다른 계정에 위임할 수도 있다.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p> 신뢰 정책</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p> 신뢰 정책</p></figcaption></figure>
 
 #### EC2 인스턴스에 해당 역할 부여하기
 

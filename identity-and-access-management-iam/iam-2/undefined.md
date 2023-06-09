@@ -20,7 +20,7 @@
 
 권한 추가 > 직접 정책 연결 클릭
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p> 직접 정책 연결</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (2).png" alt=""><figcaption><p> 직접 정책 연결</p></figcaption></figure>
 
 EC2 검색 > EC2FullAccess 권한 ( EC2에 대한 모든 권한을 가짐 )&#x20;
 
@@ -46,7 +46,7 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 인스턴스 시작 클릭
 
-![](<../../.gitbook/assets/image (17) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (2).png>)
 
 인스턴스 생성시 설정값은 다음과 같이 임의로 설정한다.
 

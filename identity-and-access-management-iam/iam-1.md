@@ -74,7 +74,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 * AWS에서 미리 만들어놓은 정책들 : 852개
 *
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 * 다음 예시는 모든 Resource와 모든 Action을 허용하는 권한의 예시임(AWS 전체에 대한 권한)
 * Full 권한이나 읽기 권한같은 다양한 권한들이 있음
 * 실습에서는 해당 권한(AdministratorAccess)로 그룹을 생성한다.

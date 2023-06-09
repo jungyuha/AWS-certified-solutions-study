@@ -30,7 +30,7 @@
 
 #### --예시1
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>IAM 정책 JSON 예시1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>IAM 정책 JSON 예시1</p></figcaption></figure>
 
 #### 정책 명시 사항
 
@@ -40,7 +40,7 @@
 
 #### --예시2
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>IAM 정책 JSON 예시2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p>IAM 정책 JSON 예시2</p></figcaption></figure>
 
 #### 정책 명시 사항
 

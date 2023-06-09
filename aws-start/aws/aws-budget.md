@@ -36,7 +36,7 @@ _**알림 임계값 추가**_ 선택
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 5) 작업 설정
 
