@@ -29,17 +29,17 @@
 
 #### 리전 확인
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (33).png>)
 
 #### 현재 형성된 리소스 확인
 
 해당 리전(서울)에 현재 형성된 리소스들을 볼 수 있다.
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>현재 형성된 리소스</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>현재 형성된 리소스</p></figcaption></figure>
 
 #### 현재 리전(서울)의 가용영역
 
-<figure><img src="../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
 
 #### 인스턴스 시작
 
@@ -56,7 +56,7 @@
 * 태그 추가 : 부서별, 리소스 별 등등 태그를 설정할 수 있다.
   *
 
-      <figure><img src="../.gitbook/assets/image (34).png" alt="" width="375"><figcaption><p> 태그 추가 : 부서별, 리소스 별 등등 태그를 설정</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (40).png" alt="" width="375"><figcaption><p> 태그 추가 : 부서별, 리소스 별 등등 태그를 설정</p></figcaption></figure>
 
 #### 인스턴스 설정 2 : 애플리케이션 및 OS 이미지(AMI)
 
@@ -70,23 +70,23 @@
   * **Quickstart AMI** : AWS에서 많이 사용하는 AMI 리스트들을 볼 수 있음
     *
 
-        <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
 
 
     *
 
-        <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
 
 
     *
 
-        <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Quick Start > Amazon Linux 선택</p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>Quick Start > Amazon Linux 선택</p></figcaption></figure>
 
 #### 인스턴스 설정 3 : 인스턴스 유형&#x20;
 
 인스턴스 유형은 머신의 하드웨어 사양이라고 생각하면 된다.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p> 인스턴스 유형</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p> 인스턴스 유형</p></figcaption></figure>
 
 #### 인스턴스 설정 4 : 키페어
 
@@ -95,7 +95,7 @@
 * 새 키페어 생성 클릭 > RSA 선택 , pem 선택 > 키페어 생성
   *
 
-      <figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p>  RSA 선택 , pem 선택 , 이름 설정</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption><p>  RSA 선택 , pem 선택 , 이름 설정</p></figcaption></figure>
 
 
 * 키 페어를 생성하고 나면 키페어가 다운로드 된다.(잘 보관하고 있어야한다.)
@@ -115,7 +115,7 @@
   * 보안그룹 규칙2 : 모든 위치로 부터 들어온 http를 허용해준다.
     *
 
-        <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 7 : 스토리지 구성
 
@@ -125,11 +125,11 @@
 
 **볼륨 유형 선택**&#x20;
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 **인스턴스 삭제 여부**
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (35).png>)
 
 * 종료 시 삭제가 '예'이면   해당 인스턴스를 삭제할 때 스토리지도 같이 삭제가 된다.
 * 아니오를 하게 되면 해당 인스턴스가 삭제될 때 스토리지도 삭제되지 않는다.
@@ -137,15 +137,15 @@
 
 **스토리지 암호화 설정**
 
-<figure><img src="../.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **볼륨 추가**
 
-<figure><img src="../.gitbook/assets/image (21).png" alt="" width="205"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt="" width="205"><figcaption></figcaption></figure>
 
 **파일 시스템 연결**
 
-<figure><img src="../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -153,7 +153,7 @@
 
 **스팟 인스턴스 요청**
 
-![](<../.gitbook/assets/image (23).png>)-
+![](<../.gitbook/assets/image (28).png>)-
 
 스팟 인스턴스 요청을 체크하지 않으면 온디맨드 구매 옵션을 선택하게 된다.
 
@@ -191,7 +191,7 @@
 * 활성화 체크
   *
 
-      <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 **중지 방지**
 
@@ -236,6 +236,49 @@
 * 사용자 데이터 아래에 스크립트를 작성해 인스턴스를 시작할 때 사용자가 원하는 스크립트를 실행할 수 잇게 한다.
 
 
+
+## \[3] EC2 인스턴스 생성 실습2 : Windows 인스턴스
+
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+#### 인스턴스 설정 1 : 이름 및 태그
+
+&#x20;
+
+<figure><img src="../.gitbook/assets/image (34).png" alt="" width="563"><figcaption></figcaption></figure>
+
+#### 인스턴스 설정 2 : 애플리케이션 및 OS 이미지
+
+&#x20;
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+#### 인스턴스 설정 3 : 인스턴스 유형
+
+* 리눅스와 동일
+
+#### 인스턴스 설정 4 : 키 페어 (원격 접속을 위한)
+
+* 리눅스와 동일 : EC2\_Key
+
+#### 인스턴스 설정 5 : 네트워크 설정
+
+* 리눅스와 동일하며 이름만 변경한다.
+*
+
+    <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
+#### 인스턴스 설정 6 : 스토리지 구성
+
+*
+
+    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+#### 인스턴스 설정 7 : 고급 세부 정보
+
+*   최대 절전 모드를 사용하기 위해서는 스토리지 구성에서 암호화를 설정해야한다.
+
+    <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 
 
