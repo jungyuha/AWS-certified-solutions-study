@@ -16,7 +16,7 @@
 
 ### 2) 예산 생성
 
-![](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 **정해진 비용 기준으로 추적하기**
 
@@ -36,7 +36,7 @@ _**알림 임계값 추가**_ 선택
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 5) 작업 설정
 

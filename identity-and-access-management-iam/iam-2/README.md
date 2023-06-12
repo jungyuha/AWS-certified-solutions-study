@@ -19,7 +19,7 @@
 
 ### (1) IAM 정책 JSON 문서 구조
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>JSON 문서 구조</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>JSON 문서 구조</p></figcaption></figure>
 
 * **Effect** : Statement 에 대한 Access 또는 Deny
 * **Action** : 권한에 대한 작업 목록
@@ -30,7 +30,7 @@
 
 #### --예시1
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>IAM 정책 JSON 예시1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption><p>IAM 정책 JSON 예시1</p></figcaption></figure>
 
 #### 정책 명시 사항
 
@@ -40,7 +40,7 @@
 
 #### --예시2
 
-<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p>IAM 정책 JSON 예시2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption><p>IAM 정책 JSON 예시2</p></figcaption></figure>
 
 #### 정책 명시 사항
 
@@ -57,5 +57,5 @@
 * 예를 들어 2개의 정책이 적용된 경우 ( AWS 전체 권한 + 권한 경계 정책 )
   * \=>AWS 전체 권한을 가지고 있어도 권한 경계에 대한 권한 범위로 축소되어 적용 된다.(중첩된 부분만 적용)
   * 여기서 최대 권한은 AWS 전체 권한이 된다.
-  * ![](<../../.gitbook/assets/image (27) (1).png>)
+  * ![](<../../.gitbook/assets/image (27) (1) (2).png>)
 

@@ -17,3 +17,5 @@
     * [실습](identity-and-access-management-iam/iam-3/undefined.md)
   * [IAM 보안도구](identity-and-access-management-iam/iam-4.md)
   * [IAM 정책 시뮬레이터](identity-and-access-management-iam/iam-5.md)
+* [컴퓨팅 - EC2](ec2/README.md)
+  * [EC2 개요 및 인스턴스 생성](ec2/ec2.md)

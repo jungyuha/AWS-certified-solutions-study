@@ -19,7 +19,7 @@
 
 ## \[2] 리전 : 전 세계 수십개의 국가에 '리전'을 운영
 
-<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>리전</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2) (1).png" alt=""><figcaption><p>리전</p></figcaption></figure>
 
 * 데이터 센터를 클러스터링 하는 물리적 위치 (서울리전 , 홍콩리전 등)
 *   전세계 주요국가에 위치 1개 AWS 리전 => 2 개이상의 가용영역으로 구성
@@ -44,7 +44,7 @@
 
 ## \[4] 엣지 로케이션  (Availability Zone – AZ)
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>엣지 로케이션</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>엣지 로케이션</p></figcaption></figure>
 
 * 데이터 센터 안에 있는 물리적인 서버
 * 엣지 로케이션에 콘텐츠(데이터)를 캐싱하여 사용자에게 더 짧은 지연 시간으로 콘텐츠를 전송

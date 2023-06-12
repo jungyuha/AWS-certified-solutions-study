@@ -74,7 +74,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 * AWS에서 미리 만들어놓은 정책들 : 852개
 *
 
-    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * 다음 예시는 모든 Resource와 모든 Action을 허용하는 권한의 예시임(AWS 전체에 대한 권한)
 * Full 권한이나 읽기 권한같은 다양한 권한들이 있음
 * 실습에서는 해당 권한(AdministratorAccess)로 그룹을 생성한다.
@@ -95,7 +95,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 *   사용자 그룹
 
-    <figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## \[3] 새로운 사용자로 Access 하기
 
@@ -103,7 +103,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
   * 기본 별칭을 바꿔 URL을 커스터마이징 할 수 있음
   * ![](<../.gitbook/assets/image (19) (1).png>)
 * 해당 URL로 들어가 해당 사용자의 계정으로 로그인 한다.
-  * ![](<../.gitbook/assets/image (12) (1) (1).png>)
+  * ![](<../.gitbook/assets/image (12) (1) (1) (1).png>)
   * 루트 사용자 계정이 아니므로 IAM 사용자라고 표시된다.
   * ![](<../.gitbook/assets/image (28) (1) (1).png>)
 * 로그인 종류 : IAM 사용자 / root 사용자 선택
