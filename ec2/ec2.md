@@ -45,7 +45,7 @@
 
 첫번째 방법 , 대시보드 > 인스턴스 시작
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 두번째 방법 , 메뉴 > 인스턴스 > 인스턴스 시작
 
@@ -56,7 +56,7 @@
 * 태그 추가 : 부서별, 리소스 별 등등 태그를 설정할 수 있다.
   *
 
-      <figure><img src="../.gitbook/assets/image (40).png" alt="" width="375"><figcaption><p> 태그 추가 : 부서별, 리소스 별 등등 태그를 설정</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (40) (1).png" alt="" width="375"><figcaption><p> 태그 추가 : 부서별, 리소스 별 등등 태그를 설정</p></figcaption></figure>
 
 #### 인스턴스 설정 2 : 애플리케이션 및 OS 이미지(AMI)
 
@@ -70,7 +70,7 @@
   * **Quickstart AMI** : AWS에서 많이 사용하는 AMI 리스트들을 볼 수 있음
     *
 
-        <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
 
 
     *
@@ -86,7 +86,7 @@
 
 인스턴스 유형은 머신의 하드웨어 사양이라고 생각하면 된다.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p> 인스턴스 유형</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (2).png" alt=""><figcaption><p> 인스턴스 유형</p></figcaption></figure>
 
 #### 인스턴스 설정 4 : 키페어
 
@@ -125,7 +125,7 @@
 
 **볼륨 유형 선택**&#x20;
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (2).png>)
 
 **인스턴스 삭제 여부**
 
@@ -137,11 +137,11 @@
 
 **스토리지 암호화 설정**
 
-<figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **볼륨 추가**
 
-<figure><img src="../.gitbook/assets/image (27).png" alt="" width="205"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt="" width="205"><figcaption></figcaption></figure>
 
 **파일 시스템 연결**
 
@@ -278,7 +278,7 @@
 
 *   최대 절전 모드를 사용하기 위해서는 스토리지 구성에서 암호화를 설정해야한다.
 
-    <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (24) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

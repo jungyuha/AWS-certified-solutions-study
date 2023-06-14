@@ -14,7 +14,7 @@
 
 해당 사용자는 아무런 권한도 없게된다.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p>권한이 없는 사용자</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption><p>권한이 없는 사용자</p></figcaption></figure>
 
 ## \[1] 사용자에게 권한 추가하기
 
@@ -77,7 +77,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 인스턴스 시작 버튼을 선택한다.
 
-<figure><img src="../../.gitbook/assets/image (18) (2).png" alt=""><figcaption><p> 인스턴스 시작 버튼을 선택</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (2) (1).png" alt=""><figcaption><p> 인스턴스 시작 버튼을 선택</p></figcaption></figure>
 
 키페어 설정값을 바꿔 변경을 시도한다.
 
@@ -87,7 +87,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 \=> 권한경계에서 ReadOnlyAceess가 부여되었기 때문이다.
 
-<figure><img src="../../.gitbook/assets/image (21) (2).png" alt=""><figcaption><p> 권한 제한 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (2) (1).png" alt=""><figcaption><p> 권한 제한 </p></figcaption></figure>
 
 인스턴스를 선택해 인스턴스 종료 버튼을 누르면 마찬가지로 오류가 뜬다.
 
@@ -101,7 +101,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 다시 IAM 사용자에서 인스턴스 종료를 누르면 정상적으로 종료된다.
 
-<figure><img src="../../.gitbook/assets/image (23) (2).png" alt=""><figcaption><p> 인스턴스 종료</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (2) (1).png" alt=""><figcaption><p> 인스턴스 종료</p></figcaption></figure>
 
 ## \[5] 정책을 직접 생성할 수도 있다.
 
@@ -111,7 +111,7 @@ IAM  > 정책 > 정책 생성 클릭
 
 시각적 편집기를 통해 직접 원하는 서비스를 추가하거나 JSON을 통해 직접 서비스를 명시할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p> 시각적 편집기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p> 시각적 편집기</p></figcaption></figure>
 
 #### 시각적 편집기로 EC2FullAccess 정책 만들기
 

@@ -19,3 +19,6 @@
   * [IAM 정책 시뮬레이터](identity-and-access-management-iam/iam-5.md)
 * [컴퓨팅 - EC2](ec2/README.md)
   * [EC2 개요 및 인스턴스 생성](ec2/ec2.md)
+  * [EC2 기능 및 구성](ec2/ec2-1.md)
+  * [EC2 인스턴스 원격 접속](ec2/ec2-2/README.md)
+    * [원격 접속 실습 1 : 리눅스 인스턴스 접속](ec2/ec2-2/1.md)

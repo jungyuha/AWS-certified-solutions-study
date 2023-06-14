@@ -30,13 +30,13 @@ IAM 대시보드 > 메뉴 > "역할" 클릭
 
 상단에 "필터 지우기" 버튼을 클릭하고 RDS를 검색하여 **AmazonRDSFullAccess** 권한을 추가한다.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p> 권한 부여하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p> 권한 부여하기</p></figcaption></figure>
 
 #### 역할 생성하기
 
 S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p> 역할 생성하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p> 역할 생성하기</p></figcaption></figure>
 
 #### 생성된 역할 조회
 
@@ -56,11 +56,11 @@ S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
 EC2 대시보드 접속 > 인스턴스 시작 버튼 클릭
 
-![](<../../.gitbook/assets/image (27) (1).png>)
+![](<../../.gitbook/assets/image (27) (1) (2).png>)
 
 고급 세부정보 클릭 > IAM 인스턴스 프로파일 클릭해서 아까 만든 역할을 설정한다.
 
-<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p> EC2 인스턴스에 해당 역할 부여하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2) (1).png" alt=""><figcaption><p> EC2 인스턴스에 해당 역할 부여하기</p></figcaption></figure>
 
 만들어진 EC2인스턴스에서 실행되는 애플리케이션은 S3와 RDS에 대해 FullAccess 권한을 갖게되어
 
