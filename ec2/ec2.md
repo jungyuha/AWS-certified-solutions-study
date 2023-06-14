@@ -29,13 +29,13 @@
 
 #### 리전 확인
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 #### 현재 형성된 리소스 확인
 
 해당 리전(서울)에 현재 형성된 리소스들을 볼 수 있다.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>현재 형성된 리소스</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>현재 형성된 리소스</p></figcaption></figure>
 
 #### 현재 리전(서울)의 가용영역
 
@@ -75,12 +75,12 @@
 
     *
 
-        <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
 
 
     *
 
-        <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>Quick Start > Amazon Linux 선택</p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (32) (2).png" alt=""><figcaption><p>Quick Start > Amazon Linux 선택</p></figcaption></figure>
 
 #### 인스턴스 설정 3 : 인스턴스 유형&#x20;
 
@@ -95,7 +95,7 @@
 * 새 키페어 생성 클릭 > RSA 선택 , pem 선택 > 키페어 생성
   *
 
-      <figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption><p>  RSA 선택 , pem 선택 , 이름 설정</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption><p>  RSA 선택 , pem 선택 , 이름 설정</p></figcaption></figure>
 
 
 * 키 페어를 생성하고 나면 키페어가 다운로드 된다.(잘 보관하고 있어야한다.)
@@ -115,7 +115,7 @@
   * 보안그룹 규칙2 : 모든 위치로 부터 들어온 http를 허용해준다.
     *
 
-        <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 7 : 스토리지 구성
 
@@ -129,7 +129,7 @@
 
 **인스턴스 삭제 여부**
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (35) (1).png>)
 
 * 종료 시 삭제가 '예'이면   해당 인스턴스를 삭제할 때 스토리지도 같이 삭제가 된다.
 * 아니오를 하게 되면 해당 인스턴스가 삭제될 때 스토리지도 삭제되지 않는다.
@@ -153,7 +153,7 @@
 
 **스팟 인스턴스 요청**
 
-![](<../.gitbook/assets/image (28).png>)-
+![](<../.gitbook/assets/image (28) (2).png>)-
 
 스팟 인스턴스 요청을 체크하지 않으면 온디맨드 구매 옵션을 선택하게 된다.
 
@@ -239,13 +239,13 @@
 
 ## \[3] EC2 인스턴스 생성 실습2 : Windows 인스턴스
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 1 : 이름 및 태그
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (34).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 2 : 애플리케이션 및 OS 이미지
 
@@ -266,7 +266,7 @@
 * 리눅스와 동일하며 이름만 변경한다.
 *
 
-    <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 6 : 스토리지 구성
 

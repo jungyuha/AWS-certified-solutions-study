@@ -19,7 +19,7 @@
 
 ### (1) IAM 정책 JSON 문서 구조
 
-<figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>JSON 문서 구조</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (1) (1).png" alt=""><figcaption><p>JSON 문서 구조</p></figcaption></figure>
 
 * **Effect** : Statement 에 대한 Access 또는 Deny
 * **Action** : 권한에 대한 작업 목록

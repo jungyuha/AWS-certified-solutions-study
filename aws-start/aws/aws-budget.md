@@ -26,7 +26,7 @@
 
 <figure><img src="../../.gitbook/assets/image (13) (1) (1) (1).png" alt="" width="563"><figcaption><p>세부정보 입력</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 4) 알림 생성
 

@@ -20,4 +20,4 @@
 * IAM 대시보드 > 메뉴 > 액세스 관리 > 아무거나 클릭 ( 사용자 그룹 , 사용자 , 역할 , 정책 등 )
 * 각 탭에서의 "액세스 관리자" 클릭
 
-<figure><img src="../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p> IAM 액세스 관리자</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1) (1).png" alt=""><figcaption><p> IAM 액세스 관리자</p></figcaption></figure>

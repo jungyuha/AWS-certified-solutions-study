@@ -21,7 +21,7 @@
 
 AWS 클라우드의 가상서버인 EC2 인스턴스에서 실행되는 애플리케이션이 AWS S3라는 스토리지 서비스 또는 데이터베이스 서비스인 AWS RDS에 액세스한다고 가정한다.
 
-<figure><img src="../../.gitbook/assets/image (32) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 기본적으로 애플리케이션에서 데이터 수정이나 삭제 등의 작업을 할 수가 없다.
 *   수정이나 삭제같은 작업을 하기 위해서는 그에 응당한 권한을 부여 받아야 한다.

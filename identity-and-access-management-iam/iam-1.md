@@ -49,7 +49,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 * 암호를 설정하면 AWS 로그인시 직접 치지 않고 해당 MFA코드로 로그인이 가능하다.
 *
 
-    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>디바이스 설정 > QR 코드 보이기 > 암호 설정</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>디바이스 설정 > QR 코드 보이기 > 암호 설정</p></figcaption></figure>
 
 
 
