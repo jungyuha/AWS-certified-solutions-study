@@ -20,7 +20,7 @@
 
 권한 추가 > 직접 정책 연결 클릭
 
-<figure><img src="../../.gitbook/assets/image (16) (1) (2) (1).png" alt=""><figcaption><p> 직접 정책 연결</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (2) (1) (1).png" alt=""><figcaption><p> 직접 정책 연결</p></figcaption></figure>
 
 EC2 검색 > EC2FullAccess 권한 ( EC2에 대한 모든 권한을 가짐 )&#x20;
 
@@ -63,7 +63,7 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 루트 사용자 계정에서 IAM 사용자의 권한 경계를 설정한다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
 
 EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 

@@ -251,7 +251,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 3 : 인스턴스 유형
 

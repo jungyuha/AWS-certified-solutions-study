@@ -22,7 +22,7 @@ AWS 계정의 IAM 사용자 , 그룹 또는 역할에 연결된 정책을 테스
 
 #### 사용자 , 그룹 , 역할 중 1개 선택
 
-![](<../.gitbook/assets/image (16) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (2).png>)
 
 사용자 yuha.jung 선택한다. 이 사용자는 EC2에 대한 FullAccess권한만을 가진다.
 
