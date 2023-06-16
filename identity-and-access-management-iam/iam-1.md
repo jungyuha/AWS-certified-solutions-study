@@ -71,7 +71,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 <figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>사용자 생성 완료</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>사용자 생성 완료</p></figcaption></figure>
 
 **사용자 그룹**
 

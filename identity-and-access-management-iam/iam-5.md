@@ -44,4 +44,4 @@ EC2에 대한 FullAccess 권한이 있으므로 모두 allowed가 뜬다.
 
 S3에 대한 권한은 없으므로 denied가 뜬다.
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p> 시뮬레이션 실행</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (2).png" alt=""><figcaption><p> 시뮬레이션 실행</p></figcaption></figure>
