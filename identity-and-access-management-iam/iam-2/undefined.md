@@ -40,13 +40,13 @@ EC2에 대한 권한만 받았으므로 IAM 대시보드에 들어가면 다음�
 
 EC2는 권한이 있으므로 이용이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p> EC2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p> EC2</p></figcaption></figure>
 
 ### 인스턴스 만들기
 
 인스턴스 시작 클릭
 
-![](<../../.gitbook/assets/image (17) (1) (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (2) (1).png>)
 
 인스턴스 생성시 설정값은 다음과 같이 임의로 설정한다.
 
@@ -57,13 +57,13 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 인스턴스가 생성된 모습
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
 
 ## \[3] 권한 경계 기능으로 최대 권한 제한하기
 
 루트 사용자 계정에서 IAM 사용자의 권한 경계를 설정한다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
 
 EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
@@ -71,7 +71,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 &#x20;권한 경계가 설정된 모습이다.
 
-<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption><p> 권한 경계가 설정된 모습</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3) (1).png" alt=""><figcaption><p> 권한 경계가 설정된 모습</p></figcaption></figure>
 
 ## \[4] IAM 사용자로 로그인하여 설정된 권한 경계 확인하기
 
@@ -97,7 +97,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 루트 사용자 계정으로 들어가 다시 권한 경계를 제거한다.
 
-<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p> 권한 경계를 제거</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1) (1).png" alt=""><figcaption><p> 권한 경계를 제거</p></figcaption></figure>
 
 다시 IAM 사용자에서 인스턴스 종료를 누르면 정상적으로 종료된다.
 

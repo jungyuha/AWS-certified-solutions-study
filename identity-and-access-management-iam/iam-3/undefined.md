@@ -40,7 +40,7 @@ S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
 #### 생성된 역할 조회
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p> 생성된 역할 목록</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (2).png" alt=""><figcaption><p> 생성된 역할 목록</p></figcaption></figure>
 
 역할을 클릭하면 연결된 권한 정책을 볼 수 있다.또한 역할에도 권한 경계 설정이 가능하다.
 
@@ -50,7 +50,7 @@ S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
 신뢰 정책 편집을 통해서 이 역할을 다른 계정에 위임할 수도 있다.
 
-<figure><img src="../../.gitbook/assets/image (17) (1) (2) (1).png" alt=""><figcaption><p> 신뢰 정책</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (2).png" alt=""><figcaption><p> 신뢰 정책</p></figcaption></figure>
 
 #### EC2 인스턴스에 해당 역할 부여하기
 

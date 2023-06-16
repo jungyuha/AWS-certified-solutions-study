@@ -1,4 +1,4 @@
-# 인스턴스 유형
+# 네트워크 인터페이스
 
 **기록 ✍️**
 
@@ -10,53 +10,87 @@
 
 
 
-## \[1] 인스턴스 유형
+## \[1] 네트워크 인터페이스
 
-* 인스턴스를 생성할 때 지정하는 인스턴스 유형에 따라 컴퓨터의 하드웨어가 결정된다.
-* 인스턴스 유형은 CPU, 메모리 , 스토리지 및 네트워킹 용량의 여러 조합으로 구성된다.
-* 애플리케이션에 따라 적합한 유형을 선택하여 인스턴스를 시작한다.
-*   인스턴스 유형은 목적에 따라 다음과 같이 인스턴스 패밀리로 분류된다.
+AWS의 EC2 인스턴스는 가상머신이다.
 
-    1. 범용
-    2. 컴퓨팅 최적화
-    3. 메모리 최적화
-    4. 가속화된 컴퓨팅
-    5. 스토리지 최적화
+이 가상머신도 하나의 개별 서버이기 때문에 인터넷이나 다른 AWS 리소스와 통신을 하기 위해서 네트워킹을 이용한다.
 
+이 네트워킹을 이용하기 위해서 '**네트워크 인터페이스**'를 사용하게 된다.
 
+기본적으로 EC2를 생성할 때 하나의 네트워크 인터페이스가 생성되고 이 네트워크 인터페이스에 IP 주소가 부여되서 EC2 인스턴스는 네트워크 인터페이스를 통해 통신할 수 있게된다.
 
-### 인스턴스 유형 선택하기
+### AWS의 네트워크 인터페이스 : Elastic Network Interface (ENI)
 
-#### AWS 콘솔 > EC2 > 인스턴스 시작 선택
+* 가상 머신에 연결되는 네트워크 인터페이스이다.
+* IP 주소 , MAC 주소 등이 부여된다.
+* 인스턴스에 연결되어 네트워크 통신을 하는 역할을 한다.
+* 인스턴스 생성시 기본 네트워크 인터페이스가 IP 주소 등의 정보 할당과 함께 생성된다.
+* EC2에 추가로 여러 개의 네트워크 인터페이스 연결 가능하다.
+  * &#x20;서로 다른 IP값을 가지며 서로 다른 네트워크 라우팅도 가능하다.
+  * ![](<../.gitbook/assets/image (57).png>)
 
-<figure><img src="../.gitbook/assets/image (39).png" alt="" width="563"><figcaption><p> AWS 콘솔 > EC2 > 인스턴스 시작</p></figcaption></figure>
+## \[2] 특정 인스턴스의 네트워크 인터페이스 확인하기
 
-#### 인스턴스 유형 > compare instance types(인스턴스 유형 비교) 선택&#x20;
+#### EC2 대시보드 > 왼쪽 메뉴 > 인스턴스&#x20;
 
-select box에서 직접 선택하거나
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p> EC2 대시보드 > 왼쪽 메뉴 > 인스턴스 </p></figcaption></figure>
 
-인스턴스 유형 비교를 선택하여 인스턴스 유형을 상세하게 확인한 뒤 선택이 가능하다.
+#### 특정 인스턴스를 클릭 > 네트워킹 탭 > 네트워크 인터페이스 확인
 
-<figure><img src="../.gitbook/assets/image (33).png" alt="" width="563"><figcaption><p> select box에서 직접 선택</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p> 특정 인스턴스를 클릭 > 네트워킹 탭 > 네트워크 인터페이스 확인</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (18).png" alt="" width="563"><figcaption><p> 인스턴스 유형을 상세하게 확인</p></figcaption></figure>
+**VPC ID**  : 이 네트워크 인터페이스가 AWS의 가상 네트워크인 VPC에 연결이 되어있다.
 
-#### 인스턴스 유형 > 스토리지
+**서브넷 ID** : VPC와 관련된 서브넷 정보이다.
 
-대부분의 인스턴스 유형에는 **스토리지가 없다**. 대신에 EBS 볼륨이라는 별도의 가상 스토리지를 설정하여 연결한다.
+**보안그룹** : 들어가고 나가는 트래픽을 제어한다.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p> 대부분의 인스턴스 유형에는 스토리지가 없다.</p></figcaption></figure>
+## \[2] 네트워크 인터페이스 목록 확인하기
 
-특정 인스턴스 유형에서 스토리지가 내장되어잇는 모습을 확인할 수 있다.
+#### EC2 대시보드 > 왼쪽 메뉴 > 네트워크 및 보안 > 네트워크 인터페이스
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p> instance store</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p> EC2 대시보드 > 왼쪽 메뉴 > 네트워크 및 보안 > 네트워크 인터페이스</p></figcaption></figure>
 
-이러한 스토리지를 **'instance store**'라고 한다.
+**가용영역** : 이 네트워크 인터페이스가 생성된 곳이며 해당 EC2 인스턴스의 가용영역과 동일하다.
 
-이것은 BS 볼륨이라는 별도의 가상 스토리지와는 달리 각각 물리적으로 할당된 SSD나 하드디스크라고 보면 된다.
+오른쪽 상단 '작업' > 분리 선택시 인스턴스가 분리가 되고 해당 인스턴스는 인터넷이나 내부적으로 통신할 수 없게된다.
 
-#### 인스턴스 유형 > 네트워크 성능
+## \[3] 네트워크 인터페이스 생성하기
 
-&#x20;인스턴스 용량이 크면(사양이 좋으면) 보통 네트워크도 고성능으로 지원한다.
+#### 오른쪽 상단 '네트워크 인터페이스 생성' 을 통해 네트워크 인터페이스를 새로 만들 수도 있다.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p> 인스턴스 용량이 크면 보통 네트워크도 고성능으로 지원한다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt="" width="563"><figcaption><p> 오른쪽 상단 '네트워크 인터페이스 생성' 을 통해 네트워크 인터페이스를 새로 만들 수도 있다.</p></figcaption></figure>
+
+#### 네트워크 인터페이스 생성 정보&#x20;
+
+<figure><img src="../.gitbook/assets/image (46).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (50).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
+
+**설명** : EC2\_Linux2
+
+**서브넷** : 인터페이스가 사용될 인스턴스와 동일한 서브넷이어야한다.(동일한 가용영역에 있는)
+
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p> 인스턴스의 가용영역 : ap-northeast-2a</p></figcaption></figure>
+
+**private ip 주소** : 자동할당
+
+**보안 그룹** 설정
+
+#### 네트워크 인터페이스 연결
+
+인터페이스가 만들어지면 오른쪽 상단 '작업' > '연결'을 선택하여 특정 인스턴스를 클릭한다.
+
+여기서는 EC\_Linux 인스턴스를 선택했다.
+
+![](<../.gitbook/assets/image (41).png>)
+
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>인스턴스로 EC_Linux를 선택</p></figcaption></figure>
+
+#### 특정 인스턴스를 클릭 > 네트워킹 탭 > 네트워크 인터페이스 확인
+
+하나의 인스턴스에 여러개의 네트워크 인터페이스가 설정되어있음을 확인할 수 있다.
+
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>나의 인스턴스에 여러개의 네트워크 인터페이스가 설정됨</p></figcaption></figure>
+

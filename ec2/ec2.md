@@ -15,7 +15,7 @@
 
 ## \[2] EC2 인스턴스 생성 실습1 : Linux 인스턴스
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Linux 인스턴스 생성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Linux 인스턴스 생성</p></figcaption></figure>
 
 1. 이름 및 태그
 2. 애플리케이션 및 OS 이미지
@@ -39,7 +39,7 @@
 
 #### 현재 리전(서울)의 가용영역
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
 
 #### 인스턴스 시작
 
@@ -145,7 +145,7 @@
 
 **파일 시스템 연결**
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -272,7 +272,7 @@
 
 *
 
-    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 7 : 고급 세부 정보
 
