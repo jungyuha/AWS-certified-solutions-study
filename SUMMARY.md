@@ -27,3 +27,5 @@
   * [EC2 인스턴스 구매 옵션](ec2/ec2-4.md)
   * [EC2 인스턴스 유형](ec2/ec2-5.md)
   * [네트워크 인터페이스](ec2/undefined.md)
+  * [보안그룹(Security Group)](ec2/security-group/README.md)
+    * [\[실습\] 콘솔창에서 보안그룹 확인하기](ec2/security-group/undefined.md)
