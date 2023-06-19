@@ -42,7 +42,7 @@ _**알림 임계값 추가**_ 선택
 
 특정 임계값에 도달한 경우 알림과 함께 특정 작업을 수행하도록 설정이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="552"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="552"><figcaption></figcaption></figure>
 
 * 알림이 옴과 동시에 EC2를 중지하는 작업
 * EC2가 생성된 리전을 클릭한다.

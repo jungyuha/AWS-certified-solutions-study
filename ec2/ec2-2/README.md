@@ -14,7 +14,7 @@
 
 ## \[1] EC2 원격접속 방법 1 : SSH 연결 (Linux 인스턴스)
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p> SSH 연결 (Linux 인스턴스</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption><p> SSH 연결 (Linux 인스턴스</p></figcaption></figure>
 
 * SSH 프로토콜을 이용해 Linux 인스턴스에 원격으로 연결 및 파일 전송 가능
 * SSH(Secure Shell Protocol)은 보안을 통해 원격으로 접속하기 위한 방식&#x20;
@@ -25,7 +25,7 @@
 
 ## \[2] EC2 원격접속 방법 2 : RDP 연결 (Windows 인스턴스)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p> RDP 연결 (Windows 인스턴스)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p> RDP 연결 (Windows 인스턴스)</p></figcaption></figure>
 
 * RDP 프로토콜을 이용해 Windows 인스턴스에 원격으로 연결 및 파일 전송 가능
 * RDP(Remote Desktop Protocol,원격 데스크탑 연결) 은 Windows OS 를 원격으로 접속하기 위한 방식
@@ -38,7 +38,7 @@
 
 ## \[3] EC2 원격접속 방법 3 : Instance Connect 연결 (Linux 인스턴스)
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p> Instance Connect 연결 : 웹 브라우저를 이용해 EC2 인스턴스에 연결</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p> Instance Connect 연결 : 웹 브라우저를 이용해 EC2 인스턴스에 연결</p></figcaption></figure>
 
 * 웹 브라우저를 이용해 EC2 인스턴스에 연결
 * SSH 프로토콜을 사용하여 일회용 SSH 퍼블릭키를 인스턴스 메타데이터에 업로드해서 EC2 연결

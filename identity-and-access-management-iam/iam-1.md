@@ -36,19 +36,19 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### MFA 디바이스 선택
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
 
 #### QR 코드 표시 선택
 
 암호를 설정하면 AWS 로그인시 직접 치지 않고 해당 MFA코드로 로그인이 가능하다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>디바이스 설정 > QR 코드 보이기 > 암호 설정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>디바이스 설정 > QR 코드 보이기 > 암호 설정</p></figcaption></figure>
 
 ## \[2] 사용자
 
 #### 사용자 메뉴 > 사용자 추가
 
-<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>사용자 메뉴 > 사용자 추가</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption><p>사용자 메뉴 > 사용자 추가</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption><p>사용자 추가 > 사용자 세부 정보</p></figcaption></figure>
 
@@ -83,7 +83,7 @@ IAM 대시보드 > 오른쪽 상단의 AWS 계정 박스 > 이 계정 IAM 사용
 
 **기본 별칭을 바꿔 URL을 커스터마이징 할 수 있음**
 
-![](<../.gitbook/assets/image (19) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (2).png>)
 
 
 

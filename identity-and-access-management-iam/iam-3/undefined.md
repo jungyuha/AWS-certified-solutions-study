@@ -16,13 +16,13 @@ IAM 대시보드 > 메뉴 > "역할" 클릭
 
 오른쪽 상단의 "역할 만들기" 버튼 클릭
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p> 역할 만들기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p> 역할 만들기</p></figcaption></figure>
 
 #### 엔터티 유형 : AWS 서비스 선택
 
 여기서의 "역할"은 특정 AWS서비스(EC2..)가 다른 AWS 서비스에 접속해 작업을 수행할 때 필요한 권한
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p> 엔터티 유형 : AWS 서비스 선택</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (2).png" alt=""><figcaption><p> 엔터티 유형 : AWS 서비스 선택</p></figcaption></figure>
 
 #### 역할에 권한 부여하기
 
@@ -40,11 +40,11 @@ S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
 #### 생성된 역할 조회
 
-<figure><img src="../../.gitbook/assets/image (30) (2).png" alt=""><figcaption><p> 생성된 역할 목록</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p> 생성된 역할 목록</p></figcaption></figure>
 
 역할을 클릭하면 연결된 권한 정책을 볼 수 있다.또한 역할에도 권한 경계 설정이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p> 권한 정책 , 권한 경계 설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2) (1).png" alt=""><figcaption><p> 권한 정책 , 권한 경계 설정</p></figcaption></figure>
 
 #### 신뢰 정책&#x20;
 

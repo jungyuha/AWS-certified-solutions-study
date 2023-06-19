@@ -18,7 +18,7 @@
 
 리전을 선택하면 그 해당 리전의 EC2를 생성할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption><p>EC2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>EC2</p></figcaption></figure>
 
 * EC2는 리전에 속한 서비스이다.
 
@@ -26,7 +26,7 @@
 
 * 인스턴스 시작을 누르면 서울 리전에 인스턴스를 만들 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (2).png" alt=""><figcaption><p>서울 리전에 인스턴스 생성</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>서울 리전에 인스턴스 생성</p></figcaption></figure>
 
 ### EC2의 인스턴스 생성시 가용영역을 선택한다.
 
