@@ -24,7 +24,7 @@
 
 EC2 검색 > EC2FullAccess 권한 ( EC2에 대한 모든 권한을 가짐 )&#x20;
 
-<figure><img src="../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption><p> EC2FullAccess 권한</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p> EC2FullAccess 권한</p></figcaption></figure>
 
 정책을 부여한다.
 
@@ -36,7 +36,7 @@ IAM 사용자 접속시 크롬의 시크릿창 모드로 들어가 로그인하�
 
 EC2에 대한 권한만 받았으므로 IAM 대시보드에 들어가면 다음과 같이 권한이 거부된 화면이 뜬다.
 
-<figure><img src="../../.gitbook/assets/image (20) (2).png" alt=""><figcaption><p>IAM 권한이 거부됨</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>IAM 권한이 거부됨</p></figcaption></figure>
 
 EC2는 권한이 있으므로 이용이 가능하다.
 
@@ -57,13 +57,13 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 인스턴스가 생성된 모습
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
 
 ## \[3] 권한 경계 기능으로 최대 권한 제한하기
 
 루트 사용자 계정에서 IAM 사용자의 권한 경계를 설정한다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
 
 EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
@@ -71,7 +71,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 &#x20;권한 경계가 설정된 모습이다.
 
-<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption><p> 권한 경계가 설정된 모습</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3) (1).png" alt=""><figcaption><p> 권한 경계가 설정된 모습</p></figcaption></figure>
 
 ## \[4] IAM 사용자로 로그인하여 설정된 권한 경계 확인하기
 
@@ -107,7 +107,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 IAM  > 정책 > 정책 생성 클릭
 
-<figure><img src="../../.gitbook/assets/image (26) (2).png" alt=""><figcaption><p> 정책 생성</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p> 정책 생성</p></figcaption></figure>
 
 시각적 편집기를 통해 직접 원하는 서비스를 추가하거나 JSON을 통해 직접 서비스를 명시할 수 있다.
 

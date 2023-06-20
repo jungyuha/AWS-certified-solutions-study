@@ -12,7 +12,7 @@
 
 ## \[1] 보안그룹이란?
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p> 보안그룹</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p> 보안그룹</p></figcaption></figure>
 
 * EC2 인스턴스에 대한 인바운드(들어오는) 및 아웃바운드(나가는) 트래픽을 제어하는 가상 방화벽 역할
 * EC2 인스턴스의 ENI(네트워크 인터페이스)와 연결 됨
@@ -29,9 +29,9 @@
 
 위 두가지 트래픽을 인바운드 규칙과 아웃바운드 규칙으로 제어를 하게된다.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p> 인바운드 규칙 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p> 인바운드 규칙 </p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p> 아웃바운드 규칙</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p> 아웃바운드 규칙</p></figcaption></figure>
 
 ### 제어 규칙
 
@@ -48,7 +48,7 @@
 
 ### 예시 1 : 인바운드로 트래픽이 허용되는 경우
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p> 예시 1 : 인바운드로 트래픽이 허용되는 경우</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p> 예시 1 : 인바운드로 트래픽이 허용되는 경우</p></figcaption></figure>
 
 아웃바운드 규칙에 상관없이 , 허용된 인바운드 트래픽에 대한 반응으로 외부로 나가는 흐름이 수행된다.
 
@@ -62,7 +62,7 @@
 
 ### 예시 2 : 아웃바운드로 트래픽이 허용되는 경우
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p> 예시 2 : 아웃바운드로 트래픽이 허용되는 경우</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption><p> 예시 2 : 아웃바운드로 트래픽이 허용되는 경우</p></figcaption></figure>
 
 사용자가 인스턴스에서 요청을 전송하면 해당 요청의 응답 트래픽은 인바운드 보안그룹 규칙에 관계없이 인바운드 흐름이 허용된다.
 

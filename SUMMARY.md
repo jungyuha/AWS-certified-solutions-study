@@ -29,3 +29,4 @@
   * [네트워크 인터페이스](ec2/undefined.md)
   * [보안그룹(Security Group)](ec2/security-group/README.md)
     * [\[실습\] 콘솔창에서 보안그룹 확인하기](ec2/security-group/undefined.md)
+  * [탄력적 IP (Elastic IP)](ec2/ip-elastic-ip.md)
