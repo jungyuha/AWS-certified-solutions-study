@@ -22,7 +22,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 <figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>다양한 암호정책 설정</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption><p>대시보드 > 보안권장 사항 > MFA 추가</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption><p>대시보드 > 보안권장 사항 > MFA 추가</p></figcaption></figure>
 
 #### 보안 자격증명 > MFA 할당
 
@@ -36,7 +36,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### MFA 디바이스 선택
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
 
 #### QR 코드 표시 선택
 

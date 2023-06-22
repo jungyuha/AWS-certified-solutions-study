@@ -87,7 +87,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 \=> 권한경계에서 ReadOnlyAceess가 부여되었기 때문이다.
 
-<figure><img src="../../.gitbook/assets/image (21) (2) (1).png" alt=""><figcaption><p> 권한 제한 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (2) (1) (1).png" alt=""><figcaption><p> 권한 제한 </p></figcaption></figure>
 
 인스턴스를 선택해 인스턴스 종료 버튼을 누르면 마찬가지로 오류가 뜬다.
 

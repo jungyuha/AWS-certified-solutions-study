@@ -49,14 +49,14 @@
 
 두번째 방법 , 메뉴 > 인스턴스 > 인스턴스 시작
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 1 : 이름 및 태그
 
 * 태그 추가 : 부서별, 리소스 별 등등 태그를 설정할 수 있다.
   *
 
-      <figure><img src="../.gitbook/assets/image (40) (1).png" alt="" width="375"><figcaption><p> 태그 추가 : 부서별, 리소스 별 등등 태그를 설정</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (40) (1) (1).png" alt="" width="375"><figcaption><p> 태그 추가 : 부서별, 리소스 별 등등 태그를 설정</p></figcaption></figure>
 
 #### 인스턴스 설정 2 : 애플리케이션 및 OS 이미지(AMI)
 
@@ -109,7 +109,7 @@
 * 보안그룹 규칙1 : 모든 위치로 부터 들어온 ssh를 허용해준다.
   *
 
-      <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
   * 보안그룹 규칙2 : 모든 위치로 부터 들어온 http를 허용해준다.
@@ -137,11 +137,11 @@
 
 **스토리지 암호화 설정**
 
-<figure><img src="../.gitbook/assets/image (21) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **볼륨 추가**
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt="" width="205"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (3).png" alt="" width="205"><figcaption></figcaption></figure>
 
 **파일 시스템 연결**
 
@@ -245,7 +245,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (34) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 2 : 애플리케이션 및 OS 이미지
 
