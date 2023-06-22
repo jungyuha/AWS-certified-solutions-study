@@ -15,7 +15,7 @@
 * 리전 : 전 세계 수십개의 국가에 '리전'을 운영
 * 가용영역 : 하나 이상의 데이터 센터의 모음&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>안프라 구성</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>안프라 구성</p></figcaption></figure>
 
 ## \[2] 리전 : 전 세계 수십개의 국가에 '리전'을 운영
 
@@ -44,7 +44,7 @@
 
 ## \[4] 엣지 로케이션  (Availability Zone – AZ)
 
-<figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption><p>엣지 로케이션</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption><p>엣지 로케이션</p></figcaption></figure>
 
 * 데이터 센터 안에 있는 물리적인 서버
 * 엣지 로케이션에 콘텐츠(데이터)를 캐싱하여 사용자에게 더 짧은 지연 시간으로 콘텐츠를 전송

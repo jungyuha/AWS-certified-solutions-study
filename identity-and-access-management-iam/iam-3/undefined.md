@@ -16,7 +16,7 @@ IAM 대시보드 > 메뉴 > "역할" 클릭
 
 오른쪽 상단의 "역할 만들기" 버튼 클릭
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p> 역할 만들기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p> 역할 만들기</p></figcaption></figure>
 
 #### 엔터티 유형 : AWS 서비스 선택
 
@@ -30,13 +30,13 @@ IAM 대시보드 > 메뉴 > "역할" 클릭
 
 상단에 "필터 지우기" 버튼을 클릭하고 RDS를 검색하여 **AmazonRDSFullAccess** 권한을 추가한다.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p> 권한 부여하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (2).png" alt=""><figcaption><p> 권한 부여하기</p></figcaption></figure>
 
 #### 역할 생성하기
 
 S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p> 역할 생성하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption><p> 역할 생성하기</p></figcaption></figure>
 
 #### 생성된 역할 조회
 

@@ -27,6 +27,6 @@
 
 ## \[2] IAM 액세스 관리
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>액세스 관리</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (2).png" alt=""><figcaption><p>액세스 관리</p></figcaption></figure>
 
 * 정책은 각 사용자,그룹,역할에 대한 권한을 정의한다.

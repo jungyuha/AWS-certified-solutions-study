@@ -20,7 +20,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 <figure><img src="../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption><p>암호정책</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>다양한 암호정책 설정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption><p>다양한 암호정책 설정</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption><p>대시보드 > 보안권장 사항 > MFA 추가</p></figcaption></figure>
 
@@ -36,7 +36,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### MFA 디바이스 선택
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
 
 #### QR 코드 표시 선택
 
@@ -48,7 +48,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### 사용자 메뉴 > 사용자 추가
 
-<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>사용자 메뉴 > 사용자 추가</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption><p>사용자 메뉴 > 사용자 추가</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption><p>사용자 추가 > 사용자 세부 정보</p></figcaption></figure>
 
@@ -71,7 +71,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 <figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>사용자 생성 완료</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (2).png" alt=""><figcaption><p>사용자 생성 완료</p></figcaption></figure>
 
 **사용자 그룹**
 
@@ -83,13 +83,13 @@ IAM 대시보드 > 오른쪽 상단의 AWS 계정 박스 > 이 계정 IAM 사용
 
 **기본 별칭을 바꿔 URL을 커스터마이징 할 수 있음**
 
-![](<../.gitbook/assets/image (19) (1).png>)
+![](<../.gitbook/assets/image (19) (1) (2).png>)
 
 
 
 해당 URL로 들어가 해당 사용자의 계정으로 로그인 한다.
 
-![](<../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
 
 루트 사용자 계정이 아니므로 IAM 사용자라고 표시된다.
 

@@ -14,7 +14,7 @@
 
 해당 사용자는 아무런 권한도 없게된다.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption><p>권한이 없는 사용자</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption><p>권한이 없는 사용자</p></figcaption></figure>
 
 ## \[1] 사용자에게 권한 추가하기
 
@@ -36,7 +36,7 @@ IAM 사용자 접속시 크롬의 시크릿창 모드로 들어가 로그인하�
 
 EC2에 대한 권한만 받았으므로 IAM 대시보드에 들어가면 다음과 같이 권한이 거부된 화면이 뜬다.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>IAM 권한이 거부됨</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>IAM 권한이 거부됨</p></figcaption></figure>
 
 EC2는 권한이 있으므로 이용이 가능하다.
 
@@ -67,7 +67,7 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p> AmazonEC2ReadOnlyAccess</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (2).png" alt=""><figcaption><p> AmazonEC2ReadOnlyAccess</p></figcaption></figure>
 
 &#x20;권한 경계가 설정된 모습이다.
 
@@ -93,7 +93,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 <figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p> 인스턴스 종료 버튼</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p> 인스턴스 종료 제한</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption><p> 인스턴스 종료 제한</p></figcaption></figure>
 
 루트 사용자 계정으로 들어가 다시 권한 경계를 제거한다.
 

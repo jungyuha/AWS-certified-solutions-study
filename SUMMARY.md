@@ -31,3 +31,4 @@
     * [\[실습\] 콘솔창에서 보안그룹 확인하기](ec2/security-group/undefined.md)
   * [탄력적 IP (Elastic IP)](ec2/ip-elastic-ip.md)
   * [Amazon Machine Image(AMI)](ec2/amazon-machine-image-ami.md)
+  * [EC2 배치그룹(Placement Groups)](ec2/ec2-placement-groups.md)
