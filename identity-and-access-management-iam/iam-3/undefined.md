@@ -22,7 +22,7 @@ IAM 대시보드 > 메뉴 > "역할" 클릭
 
 여기서의 "역할"은 특정 AWS서비스(EC2..)가 다른 AWS 서비스에 접속해 작업을 수행할 때 필요한 권한
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p> 엔터티 유형 : AWS 서비스 선택</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (2).png" alt=""><figcaption><p> 엔터티 유형 : AWS 서비스 선택</p></figcaption></figure>
 
 #### 역할에 권한 부여하기
 

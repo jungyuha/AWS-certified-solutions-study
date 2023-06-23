@@ -10,7 +10,7 @@
 
 일전에 등록한 사용자를 사용자 그룹에서 삭제한다.
 
-<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p>사용자 삭제</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption><p>사용자 삭제</p></figcaption></figure>
 
 해당 사용자는 아무런 권한도 없게된다.
 
@@ -24,7 +24,7 @@
 
 EC2 검색 > EC2FullAccess 권한 ( EC2에 대한 모든 권한을 가짐 )&#x20;
 
-<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p> EC2FullAccess 권한</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption><p> EC2FullAccess 권한</p></figcaption></figure>
 
 정책을 부여한다.
 
@@ -107,7 +107,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 IAM  > 정책 > 정책 생성 클릭
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p> 정책 생성</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (2).png" alt=""><figcaption><p> 정책 생성</p></figcaption></figure>
 
 시각적 편집기를 통해 직접 원하는 서비스를 추가하거나 JSON을 통해 직접 서비스를 명시할 수 있다.
 

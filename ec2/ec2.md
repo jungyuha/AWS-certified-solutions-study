@@ -266,7 +266,7 @@
 * 리눅스와 동일하며 이름만 변경한다.
 *
 
-    <figure><img src="../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (36) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 6 : 스토리지 구성
 

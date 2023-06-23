@@ -32,3 +32,4 @@
   * [탄력적 IP (Elastic IP)](ec2/ip-elastic-ip.md)
   * [Amazon Machine Image(AMI)](ec2/amazon-machine-image-ami.md)
   * [EC2 배치그룹(Placement Groups)](ec2/ec2-placement-groups.md)
+  * [EC2 라이프 사이클](ec2/ec2-6.md)

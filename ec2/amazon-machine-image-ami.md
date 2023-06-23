@@ -41,23 +41,23 @@
 
 #### EC2 대시보드 > '인스턴스 시작' 클릭 > '애플리케이션 및 OS 이미지' 탭 > '더 많은 AMI 찾아보기' 클릭
 
-<figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption><p>애플리케이션 및 OS 이미지 탭</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt="" width="375"><figcaption><p>애플리케이션 및 OS 이미지 탭</p></figcaption></figure>
 
 #### quickstart ami : aws에서 일반적으로 제공하고 또 많이 사용하는 ami
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p> quickstart ami</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p> quickstart ami</p></figcaption></figure>
 
 #### &#x20;내 ami : 사용자가 직접 인스턴스에서 ami를 만들어서 업로드하여 사용할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p> 내 ami</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p> 내 ami</p></figcaption></figure>
 
 #### 마켓플레이스 ami&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p> 마켓플레이스 ami </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p> 마켓플레이스 ami </p></figcaption></figure>
 
 #### 커뮤니티 ami : 누구나 공유와 게시가 가능한 ami
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p> 커뮤니티 ami</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p> 커뮤니티 ami</p></figcaption></figure>
 
 ### 내 인스턴스의 스냅샷 만들기 (백업 개념과 동일)
 

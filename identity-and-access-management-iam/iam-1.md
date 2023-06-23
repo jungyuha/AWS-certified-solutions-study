@@ -18,7 +18,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### **계정 설정 메뉴 클릭 > 암호 정책 편집**&#x20;
 
-<figure><img src="../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption><p>암호정책</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption><p>암호정책</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption><p>다양한 암호정책 설정</p></figcaption></figure>
 
