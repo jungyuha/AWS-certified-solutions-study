@@ -35,3 +35,4 @@
   * [EC2 라이프 사이클](ec2/ec2-6.md)
 * [Elastic Load Balancing(ELB)](elastic-load-balancing-elb/README.md)
   * [가용성과 확장성](elastic-load-balancing-elb/undefined.md)
+  * [Load Balancer 개요](elastic-load-balancing-elb/load-balancer.md)

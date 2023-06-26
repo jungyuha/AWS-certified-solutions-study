@@ -64,37 +64,37 @@
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > '네트워킹 탭' > public ip 주소 확인
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p> public ip 주소 확인</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p> public ip 주소 확인</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > 오른쪽 상단 '작업' 클릭 > 네트워킹 > 인스턴스 설정 > '중지 방지 변경' 클릭 > 활성화 'disable' >  &#x20;
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p> 중지 방지 비활성화</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p> 중지 방지 비활성화</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > 오른쪽 상단 '인스턴스 상태' 클릭 > '인스턴스 중지'
 
 public ip 주소를 보면 보이지 않는다.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p> 인스턴스 중지</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption><p> 인스턴스 중지</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > '네트워킹 탭' > 네트워크 인터페이스 확인
 
 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않으므로 1개를 지운다.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p> 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않는다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p> 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않는다.</p></figcaption></figure>
 
 #### 네트워크 인터페이스 분리 및 삭제
 
 인스턴스에 연결되어있던 EC2\_Linux2 네트워크 인터페이스를 인스턴스로부터 분리시키고 삭제한다.
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p> 인스턴스로부터 분리</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p> 인스턴스로부터 분리</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>네트워크 인터페이스 삭제</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>네트워크 인터페이스 삭제</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > 오른쪽 상단 '인스턴스 시작'&#x20;
 
 다시 public ip 주소 확인하면  IP 주소가 바뀌어있다.
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p> 다시 public ip 주소 확인하면  IP 주소가 바뀌어있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p> 다시 public ip 주소 확인하면  IP 주소가 바뀌어있다.</p></figcaption></figure>
 
 ### 2) 탄력적 IP 설정하기(유료 서비스)
 
@@ -102,15 +102,15 @@ public ip 주소를 보면 보이지 않는다.
 
 기본 설정 그래도 두고 '할당'을 클릭한다.
 
-<figure><img src="../.gitbook/assets/image (53).png" alt="" width="375"><figcaption><p> 탄력적 IP 설정 </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt="" width="375"><figcaption><p> 탄력적 IP 설정 </p></figcaption></figure>
 
 #### 탄력적IP 주소 목록 > 오른쪽 상단 '작업' 클릭 > '탄력적IP 주소 연결' 클릭
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
 
 #### 연결할 유형 '인스턴스' 선택 > 특정 인스턴스 선택 > 프라이빗 IP 주소 선택
 
-<figure><img src="../.gitbook/assets/image (56).png" alt="" width="375"><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt="" width="375"><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > '네트워킹 탭' > 탄력적 ip 주소 확인
 
@@ -118,5 +118,5 @@ public ip 주소를 보면 보이지 않는다.
 
 이 IP 주소는 인스턴스를 재시작해도 동일한 주소로 인터넷에 연결할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p> 탄력적 ip 주소 확인</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p> 탄력적 ip 주소 확인</p></figcaption></figure>
 

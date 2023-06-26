@@ -49,7 +49,7 @@
 
 두번째 방법 , 메뉴 > 인스턴스 > 인스턴스 시작
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 1 : 이름 및 태그
 

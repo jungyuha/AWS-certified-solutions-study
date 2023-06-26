@@ -15,7 +15,7 @@
 * 리전 : 전 세계 수십개의 국가에 '리전'을 운영
 * 가용영역 : 하나 이상의 데이터 센터의 모음&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>안프라 구성</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption><p>안프라 구성</p></figcaption></figure>
 
 ## \[2] 리전 : 전 세계 수십개의 국가에 '리전'을 운영
 

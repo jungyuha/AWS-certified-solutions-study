@@ -16,7 +16,7 @@
 
 * 나가고 들어오는 트래픽을 '보안그룹'이 필터링함
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p> EC2 인스턴스의 보안 그룹</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p> EC2 인스턴스의 보안 그룹</p></figcaption></figure>
 
 ### 2) 인바운드와 아웃바운드 규칙 확인
 
@@ -43,13 +43,13 @@
 
 HTTP 프로토콜이 보안그룹에서 허용이 되어있기 때문에 접속이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 오른쪽 상단 연결 클릭 > 아래 연결 클릭 > 원격 접속 가능
 
 SSH 프로토콜이 보안그룹에서 허용이 되어있기 때문이다.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="375"><figcaption><p> 원격 접속 가능</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt="" width="375"><figcaption><p> 원격 접속 가능</p></figcaption></figure>
 
 ### 4) 인바운드와 아웃바운드 규칙 편집
 
@@ -79,7 +79,7 @@ HTTP 프로토콜이 보안그룹에서 삭제됐기 때문에 접속이 불가�
 
 #### EC2 인스턴스 대시보드 > 퍼블릭 IPv4 주소 복사 > 브라우저에 붙여넣기 > 웹서버 접속 가능
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
 
 * 상태저장 방화벽이기 떄문에 인바운드 규칙 허용시 아웃바운드 규칙은 체크하지 않는다.
 * 아웃바운드 규칙이 없어도 리턴 트래픽은 나갈 수 있다.(인바운드에 규칙이 있으므로)
