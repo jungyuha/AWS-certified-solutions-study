@@ -115,7 +115,7 @@
   * 보안그룹 규칙2 : 모든 위치로 부터 들어온 http를 허용해준다.
     *
 
-        <figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 7 : 스토리지 구성
 
@@ -239,7 +239,7 @@
 
 ## \[3] EC2 인스턴스 생성 실습2 : Windows 인스턴스
 
-<figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 1 : 이름 및 태그
 

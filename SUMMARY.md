@@ -33,3 +33,5 @@
   * [Amazon Machine Image(AMI)](ec2/amazon-machine-image-ami.md)
   * [EC2 배치그룹(Placement Groups)](ec2/ec2-placement-groups.md)
   * [EC2 라이프 사이클](ec2/ec2-6.md)
+* [Elastic Load Balancing(ELB)](elastic-load-balancing-elb/README.md)
+  * [가용성과 확장성](elastic-load-balancing-elb/undefined.md)

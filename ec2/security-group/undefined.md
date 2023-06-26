@@ -75,7 +75,7 @@ HTTP 프로토콜이 보안그룹에서 삭제됐기 때문에 접속이 불가�
 
 * 아웃 바운드 규칙 삭제 => 나가는 모든 트래픽을 차단하게 된다.
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p> 아웃 바운드 규칙 삭제</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p> 아웃 바운드 규칙 삭제</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 퍼블릭 IPv4 주소 복사 > 브라우저에 붙여넣기 > 웹서버 접속 가능
 
