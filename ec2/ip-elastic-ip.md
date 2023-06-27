@@ -64,7 +64,7 @@
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > '네트워킹 탭' > public ip 주소 확인
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p> public ip 주소 확인</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (3).png" alt=""><figcaption><p> public ip 주소 확인</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > 오른쪽 상단 '작업' 클릭 > 네트워킹 > 인스턴스 설정 > '중지 방지 변경' 클릭 > 활성화 'disable' >  &#x20;
 
@@ -74,21 +74,21 @@
 
 public ip 주소를 보면 보이지 않는다.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p> 인스턴스 중지</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (2).png" alt=""><figcaption><p> 인스턴스 중지</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > '네트워킹 탭' > 네트워크 인터페이스 확인
 
 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않으므로 1개를 지운다.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p> 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않는다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p> 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않는다.</p></figcaption></figure>
 
 #### 네트워크 인터페이스 분리 및 삭제
 
 인스턴스에 연결되어있던 EC2\_Linux2 네트워크 인터페이스를 인스턴스로부터 분리시키고 삭제한다.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p> 인스턴스로부터 분리</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (3).png" alt=""><figcaption><p> 인스턴스로부터 분리</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>네트워크 인터페이스 삭제</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (4).png" alt=""><figcaption><p>네트워크 인터페이스 삭제</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > 오른쪽 상단 '인스턴스 시작'&#x20;
 

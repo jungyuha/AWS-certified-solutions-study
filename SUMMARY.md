@@ -36,3 +36,5 @@
 * [Elastic Load Balancing(ELB)](elastic-load-balancing-elb/README.md)
   * [가용성과 확장성](elastic-load-balancing-elb/undefined.md)
   * [Load Balancer 개요](elastic-load-balancing-elb/load-balancer.md)
+  * [Target Groups 개요](elastic-load-balancing-elb/target-groups/README.md)
+    * [실습](elastic-load-balancing-elb/target-groups/undefined.md)
