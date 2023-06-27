@@ -22,18 +22,18 @@
 
 #### 왼쪽 메뉴 '네트워크 및 보안' > 보안 그룹 클릭 > 특정 보안그룹 선택 > 아래 탭에서 해당 보안그룹의 인바운드와 아웃바운드 규칙 확인 가능
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p> '네트워크 및 보안' > 보안 그룹 클릭 > 특정 보안그룹 선택</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p> '네트워크 및 보안' > 보안 그룹 클릭 > 특정 보안그룹 선택</p></figcaption></figure>
 
 #### 보안 그룹 대시보드 > 아래 탭 '인바운드 규칙 클릭'
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> 인바운드 규칙</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p> 인바운드 규칙</p></figcaption></figure>
 
 * 모든 IP로부터의 (0.0.0.0/0) 웹서버 접속을 위한 HTTP 80 프로토콜 허용
 * 모든 IP로부터의 (0.0.0.0/0) SSH 접속을 허용
 
 #### 보안 그룹 대시보드 > 아래 탭 '아웃바운드 규칙 클릭'
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p> 아웃바운드 규칙</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p> 아웃바운드 규칙</p></figcaption></figure>
 
 * 기본 설정으로 '전체 프로토콜'이 허용됨
 
@@ -59,7 +59,7 @@ SSH 프로토콜이 보안그룹에서 허용이 되어있기 때문이다.
 
 * HTTP 80 프로토콜을 삭제한다.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p> HTTP 80 프로토콜을 삭제</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p> HTTP 80 프로토콜을 삭제</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 퍼블릭 IPv4 주소 복사 > 브라우저에 붙여넣기 > 웹서버 접속 불가능
 

@@ -44,7 +44,7 @@ S3andRDS\_Full\_Access라는 이름을 가진 역할을 생성한다.
 
 역할을 클릭하면 연결된 권한 정책을 볼 수 있다.또한 역할에도 권한 경계 설정이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p> 권한 정책 , 권한 경계 설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2) (2).png" alt=""><figcaption><p> 권한 정책 , 권한 경계 설정</p></figcaption></figure>
 
 #### 신뢰 정책&#x20;
 
