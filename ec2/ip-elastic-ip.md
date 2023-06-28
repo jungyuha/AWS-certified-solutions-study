@@ -94,7 +94,7 @@ public ip 주소를 보면 보이지 않는다.
 
 다시 public ip 주소 확인하면  IP 주소가 바뀌어있다.
 
-<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption><p> 다시 public ip 주소 확인하면  IP 주소가 바뀌어있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51) (2).png" alt=""><figcaption><p> 다시 public ip 주소 확인하면  IP 주소가 바뀌어있다.</p></figcaption></figure>
 
 ### 2) 탄력적 IP 설정하기(유료 서비스)
 
@@ -102,15 +102,15 @@ public ip 주소를 보면 보이지 않는다.
 
 기본 설정 그래도 두고 '할당'을 클릭한다.
 
-<figure><img src="../.gitbook/assets/image (42).png" alt="" width="375"><figcaption><p> 탄력적 IP 설정 </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42) (1).png" alt="" width="375"><figcaption><p> 탄력적 IP 설정 </p></figcaption></figure>
 
 #### 탄력적IP 주소 목록 > 오른쪽 상단 '작업' 클릭 > '탄력적IP 주소 연결' 클릭
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38) (2).png" alt=""><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
 
 #### 연결할 유형 '인스턴스' 선택 > 특정 인스턴스 선택 > 프라이빗 IP 주소 선택
 
-<figure><img src="../.gitbook/assets/image (44).png" alt="" width="375"><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44) (1).png" alt="" width="375"><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > '네트워킹 탭' > 탄력적 ip 주소 확인
 
@@ -118,5 +118,5 @@ public ip 주소를 보면 보이지 않는다.
 
 이 IP 주소는 인스턴스를 재시작해도 동일한 주소로 인터넷에 연결할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p> 탄력적 ip 주소 확인</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (3).png" alt=""><figcaption><p> 탄력적 ip 주소 확인</p></figcaption></figure>
 
