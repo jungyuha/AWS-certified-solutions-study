@@ -37,4 +37,5 @@
   * [가용성과 확장성](elastic-load-balancing-elb/undefined.md)
   * [Load Balancer 개요](elastic-load-balancing-elb/load-balancer.md)
   * [Target Groups 개요](elastic-load-balancing-elb/target-groups/README.md)
-    * [실습](elastic-load-balancing-elb/target-groups/undefined.md)
+    * [\[실습\] Target Group 생성](elastic-load-balancing-elb/target-groups/target-group.md)
+  * [\[실습\] Application Load Balancer 생성](elastic-load-balancing-elb/application-load-balancer.md)

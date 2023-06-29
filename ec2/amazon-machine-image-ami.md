@@ -53,7 +53,7 @@
 
 #### 마켓플레이스 ami&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p> 마켓플레이스 ami </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p> 마켓플레이스 ami </p></figcaption></figure>
 
 #### 커뮤니티 ami : 누구나 공유와 게시가 가능한 ami
 

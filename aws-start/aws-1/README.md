@@ -55,7 +55,7 @@
 
 #### 엣지 로케이션을 사용하지 않은 전송
 
-<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 엣지 로케이션을 사용한 전송
 
