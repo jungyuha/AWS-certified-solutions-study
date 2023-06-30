@@ -14,7 +14,7 @@
 
 IAM의 리전은 **글로벌**로 설정되어있다.
 
-## ![](<../.gitbook/assets/image (1) (1).png>)&#x20;
+## ![](<../.gitbook/assets/image (1) (1) (2).png>)&#x20;
 
 #### **계정 설정 메뉴 클릭 > 암호 정책 편집**&#x20;
 
@@ -54,7 +54,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### 그룹이 없으니 그룹을 생성
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>사용자 권한 설정 : 그룹에 사용자 추가</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption><p>사용자 권한 설정 : 그룹에 사용자 추가</p></figcaption></figure>
 
 #### AWS에서 미리 만들어놓은 정책들 : 852개
 
@@ -93,7 +93,7 @@ IAM 대시보드 > 오른쪽 상단의 AWS 계정 박스 > 이 계정 IAM 사용
 
 루트 사용자 계정이 아니므로 IAM 사용자라고 표시된다.
 
-![](<../.gitbook/assets/image (28) (1) (1).png>)
+![](<../.gitbook/assets/image (28) (1) (1) (1).png>)
 
 
 

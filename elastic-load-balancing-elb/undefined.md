@@ -12,7 +12,7 @@
 
 ### 1) 수직적 확장
 
-<figure><img src="../.gitbook/assets/image (36).png" alt="" width="375"><figcaption><p> 수직적 확장</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption><p> 수직적 확장</p></figcaption></figure>
 
 * 자원을 추가하는 방식
 * 예시 1
@@ -24,7 +24,7 @@
 
 ### 2) 수평적 확장
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p> 수평적 확장</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption><p> 수평적 확장</p></figcaption></figure>
 
 * 노드를 **추가**하는 방식
 * **EC2 인스턴스 개수**를 늘리는 것(자원을 안 쓰면 다시 줄임)
@@ -43,6 +43,6 @@
 
 *
 
-    <figure><img src="../.gitbook/assets/image (44).png" alt="" width="375"><figcaption><p> 이중화</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (42).png" alt="" width="375"><figcaption><p> 이중화</p></figcaption></figure>
 * 각 가용영역 안에 시스템이 2개씩 있다.
 * 가용영역끼리 연결하면 하나의 가용영역에 문제가 생긴경우 다른 가용영역을 사용하여 지속적으로 정상적인 운영이 가능하다.

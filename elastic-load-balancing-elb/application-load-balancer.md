@@ -19,6 +19,8 @@
 
 ## \[2] 리스너 규칙
 
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p> 리스너 규칙</p></figcaption></figure>
+
 * 특정 조건값에 따라 특정 타겟 그룹으로 라우팅하는 것(트래픽을 전달)
 
 ### Host header : 각 요청의 호스트 이름을 기반으로 라우팅

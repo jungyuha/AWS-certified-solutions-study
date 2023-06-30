@@ -57,7 +57,7 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 인스턴스가 생성된 모습
 
-<figure><img src="../../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
 
 ## \[3] 권한 경계 기능으로 최대 권한 제한하기
 
@@ -91,7 +91,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 인스턴스를 선택해 인스턴스 종료 버튼을 누르면 마찬가지로 오류가 뜬다.
 
-<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p> 인스턴스 종료 버튼</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption><p> 인스턴스 종료 버튼</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption><p> 인스턴스 종료 제한</p></figcaption></figure>
 

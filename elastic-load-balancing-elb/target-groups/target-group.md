@@ -22,37 +22,37 @@
 #### EC2 대시보드 > 왼쪽 메뉴 '인스턴스' > '인스턴스 시작' 클릭
 
 * **인스턴스 개수** : 2개
-  * ![](<../../.gitbook/assets/image (30).png>)
+  * ![](<../../.gitbook/assets/image (9).png>)
   * 2개의 인스턴스에 로드발란싱 처리를 할 것이다.
 * **태그 이름** : EC2\_WEB
-  * ![](<../../.gitbook/assets/image (5).png>)
+  * ![](<../../.gitbook/assets/image (3).png>)
 * **애플리케이션 및 OS 이미지** : Amazon Linux 2 AMI
-  * <img src="../../.gitbook/assets/image (31).png" alt="" data-size="original">
+  * <img src="../../.gitbook/assets/image (13).png" alt="" data-size="original">
 * **인스턴스 유형** : t2.micro
-  * ![](<../../.gitbook/assets/image (11).png>)
+  * ![](<../../.gitbook/assets/image (7).png>)
 * **키페어(로그인)** : 이전시간에 지정한 EC2\_KEY
-  * ![](<../../.gitbook/assets/image (6).png>)
+  * ![](<../../.gitbook/assets/image (12).png>)
 * **네트워크 설정** : 그대로 설정
 * **보안그룹** : '보안그룹생성' 선택 > '편집' 클릭
   *
 
-      <figure><img src="../../.gitbook/assets/image (32).png" alt="" width="563"><figcaption><p> '편집' 클릭</p></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption><p> '편집' 클릭</p></figcaption></figure>
 
 
   *   기존 ssh 제거
 
-      <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p> 기존 ssh 제거</p></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p> 기존 ssh 제거</p></figcaption></figure>
   * **보안그룹이릅** : web\_access\_sg
   * **설명** : web\_access\_sg
-  * ![](<../../.gitbook/assets/image (7).png>)
+  * ![](<../../.gitbook/assets/image (5).png>)
     * **보안그룹규칙1** 추가
       * 유형 : HTTP
       * source type : Anywhere
-      * ![](<../../.gitbook/assets/image (33).png>)
+      * ![](<../../.gitbook/assets/image (26).png>)
     * **보안그룹규칙2** 추가
       * 유형 : HTTPS
       * source type : Anywhere
-      * ![](<../../.gitbook/assets/image (15).png>)
+      * ![](<../../.gitbook/assets/image (25).png>)
 * **스토리지** : 그대로 설정
 * **고급세부정보**
   *
@@ -73,11 +73,11 @@
 * EC2\_WEB 인스턴스가 2개가 생성이 된 모습
   *
 
-      <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> EC2_WEB 인스턴스가 2개</p></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p> EC2_WEB 인스턴스가 2개</p></figcaption></figure>
 * public IP 주소를 복사하여 확인해본다.
   *
 
-      <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p> public IP 주소 접속</p></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p> public IP 주소 접속</p></figcaption></figure>
 
 ### 2) 타겟그룹 생성하기
 
@@ -88,7 +88,7 @@
 
 #### EC2 대시보드 > 왼쪽 메뉴 '로드밸런싱' > '대상그룹' 클릭 > 오른쪽 상단 'create target group' 클릭
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p> 타겟그룹 생성하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p> 타겟그룹 생성하기</p></figcaption></figure>
 
 * **application 로드발란스** 전용
   * **target** : instance
@@ -115,4 +115,4 @@
 
 #### EC2 대시보드 > 왼쪽 메뉴 '로드밸런싱' > '대상그룹' 클릭 >  아무 대상 그룹 클릭 > 아래 탭 'Attribute' > 'Edit'
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p> 로드밸런싱 속성 변경하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p> 로드밸런싱 속성 변경하기</p></figcaption></figure>

@@ -24,7 +24,7 @@
 
 ### 예시 1. 인터넷,웹서버,기업 내부 사설망으로 구성될 때
 
-<figure><img src="../.gitbook/assets/image (28) (4).png" alt=""><figcaption><p> 인터넷,웹서버,기업 내부 사설망으로 구성될 때</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p> 인터넷,웹서버,기업 내부 사설망으로 구성될 때</p></figcaption></figure>
 
 #### **기업 내부 사설망**
 
