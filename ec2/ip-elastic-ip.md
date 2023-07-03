@@ -24,7 +24,7 @@
 
 ### 예시 1. 인터넷,웹서버,기업 내부 사설망으로 구성될 때
 
-<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p> 인터넷,웹서버,기업 내부 사설망으로 구성될 때</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p> 인터넷,웹서버,기업 내부 사설망으로 구성될 때</p></figcaption></figure>
 
 #### **기업 내부 사설망**
 
@@ -68,7 +68,7 @@
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > 오른쪽 상단 '작업' 클릭 > 네트워킹 > 인스턴스 설정 > '중지 방지 변경' 클릭 > 활성화 'disable' >  &#x20;
 
-<figure><img src="../.gitbook/assets/image (18) (3).png" alt=""><figcaption><p> 중지 방지 비활성화</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p> 중지 방지 비활성화</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 특정 인스턴스 클릭 > 오른쪽 상단 '인스턴스 상태' 클릭 > '인스턴스 중지'
 

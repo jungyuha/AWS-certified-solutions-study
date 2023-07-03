@@ -6,7 +6,7 @@
 
 #### first registered : 2023-06-29 Thu
 
-#### last modified : 2023-06-29 Thu
+#### last modified : 2023-07-03 Mon
 
 ## \[1] Application Load Balancer의 특징
 
@@ -19,7 +19,7 @@
 
 ## \[2] 리스너 규칙
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p> 리스너 규칙</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p> 리스너 규칙</p></figcaption></figure>
 
 * 특정 조건값에 따라 특정 타겟 그룹으로 라우팅하는 것(트래픽을 전달)
 
@@ -51,29 +51,53 @@
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 생성 > Applicaion Load Balancer 선택
 
-* 로드 밸런서 이름 : ALB
-* 체계 : 인터넷 경계
-* IP 주소 유형 : IPv4
-* 네트워크 매핑 : 이 로드발란서가 위치할 가용영역을 선택 > 전부 다 선택한다.
+<figure><img src="../.gitbook/assets/image (16).png" alt="" width="172"><figcaption><p> Applicaion Load Balancer</p></figcaption></figure>
+
+* ![](<../.gitbook/assets/image (8).png>)
+  * 로드 밸런서 이름 : ALB
+  * 체계 : 인터넷 경계
+  * IP 주소 유형 : IPv4
+* ![](<../.gitbook/assets/image (19).png>)
+  * 네트워크 매핑 : 이 로드발란서가 위치할 가용영역을 선택 > 전부 다 선택한다.
 * 보안 그룹&#x20;
-  * default는 웹 트래픽이 허용되지 않은 상태이므로 삭제한다.
-  * 웹서버 생성 때 만든 web\_accss\_sg 를 선택한다.
+  * ![](<../.gitbook/assets/image (10).png>)
+    * default는 웹 트래픽이 허용되지 않은 상태이므로 삭제한다.
+    * 웹서버 생성 때 만든 web\_accss\_sg 를 선택한다.
 * 리스너 및 라우팅 : HTTP / 80 으로 전달이 될 때 대상그룹 TG-ALB로 전달하기로 설정한다.
+  *
+
+      <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>  HTTP / 80 으로 전달이 될 때 대상그룹 TG-ALB로 전달하기로 설정</p></figcaption></figure>
 * 나머지는 그대로 두고 로드밸런서를 생성한다.
 
 ### 로드발란서에 접속하는 방법
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 'DNS이름' 복사 > 브라우저에 복사
 
-* 172-31-35-68 라는 웹서버로 접속이 된다.
-  * 이 주소는 이전 시간에 만들었던 공용 IP의 웹서버이다.&#x20;
-* 만약 새로고침을 한다면 \~로 바뀐다. 즉, 2개의 웹서버가 로드밸런싱을 통해 번갈아가며 접속됨을 알 수 있다.
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>  'DNS이름' 복사</p></figcaption></figure>
+
+![](<../.gitbook/assets/image (12).png>)![](<../.gitbook/assets/image (11).png>)
+
+* 172-31-35-68 과 172.31.42.104라는 웹서버로 번갈아 접속이 된다.
+  *
+
+      * 이 주소는 이전 시간에 만들었던 인스턴스 웹서버의 private IP주소이다.&#x20;
+
+      <figure><img src="../.gitbook/assets/image (6).png" alt="" width="563"><figcaption><p> 172.31.42.104 인스턴스 접속</p></figcaption></figure>
+
+
+
+      <figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption><p> 172.31.35.68 인스턴스 접속</p></figcaption></figure>
+* 즉, 2개의 웹서버가 로드밸런싱을 통해 번갈아가며 접속됨을 알 수 있다.
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택 > 아래 '리스너' 탭
 
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p> HTTP/80 에는 TG-ALB 대상그룹이 있다.</p></figcaption></figure>
+
 * HTTP/80 에는 TG-ALB 대상그룹이 있다. 이 대상그룹엔 2개의 인스턴스가 연결되어 있다.
 
-#### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택
+#### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택 > 대상 그룹 선택(TG-ALB)
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 * 아래 '상태검사'탭의 설정값에 따라 '대상' 탭에 있는 인스턴스의 '상태 확인' 값이 반영된다.
 *   \- 비정상인 경우 해당 로드밸런싱은 인스턴스에 트래픽을 전달하지 않는다.

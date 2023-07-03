@@ -8,7 +8,7 @@
 
 #### last modified : 2023-06-30 Fri
 
-## \[1] Application Load Balancer의 특징
+## \[1] Network Load Balancer의 특징
 
 * TCP, UDP, TLS 요청을 로드 밸런싱 해야 하는 경우에 사용
 *   동작이 Application Load Balancer보다 빠르기 때문에 고도의 성능이 요구되거나

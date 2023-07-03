@@ -26,7 +26,7 @@
 
 ### 1) 클러스터 배치그룹
 
-<figure><img src="../.gitbook/assets/image (17).png" alt="" width="563"><figcaption><p> 클러스터 배치그룹</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (3).png" alt="" width="563"><figcaption><p> 클러스터 배치그룹</p></figcaption></figure>
 
 * 고성능 네트워크 연결로 이루어진 인스턴스 묶음
 * 근접한 서버를 고속 네트워크로 연결하여 그룹화하는 것
@@ -41,7 +41,7 @@
 
 ### 2) 파티션 배치그룹
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p> 파티션 배치그룹</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt="" width="375"><figcaption><p> 파티션 배치그룹</p></figcaption></figure>
 
 * 인스턴스 그룹을 하드웨어를 공유하지 않는 파티션 단위로 분할
 * 배치그룹을 파티션으로 나눈다. 이 파티션 안에 인스턴스를 할당하게 된다.
@@ -56,7 +56,7 @@
 
 ### 3) 분산형 배치그룹
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption><p> 분산형 배치그룹</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt="" width="375"><figcaption><p> 분산형 배치그룹</p></figcaption></figure>
 
 * 인스턴스 그룹을 별개의 서버랙 단위로 분할
 * **예시 :** 3개의 서버렉이 있으면 서버렉 단위로 분산그룹을 만든다.
@@ -91,9 +91,9 @@
 
 * 오른쪽 인스턴수 개수를 10개로 설정한다.
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt="" width="375"><figcaption><p> 인스턴수 개수를 10개로 설정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p> 인스턴수 개수를 10개로 설정</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (4).png" alt=""><figcaption><p> '배치그룹' 선택</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p> '배치그룹' 선택</p></figcaption></figure>
 
 1. Cluster 선택
 2. Partition 선택 > 파티션수 설정

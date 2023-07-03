@@ -14,7 +14,7 @@
 
 IAM의 리전은 **글로벌**로 설정되어있다.
 
-## ![](<../.gitbook/assets/image (1) (1) (2).png>)&#x20;
+## ![](<../.gitbook/assets/image (1) (1).png>)&#x20;
 
 #### **계정 설정 메뉴 클릭 > 암호 정책 편집**&#x20;
 
@@ -36,7 +36,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### MFA 디바이스 선택
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40) (2).png" alt=""><figcaption><p>MFA 디바이스 선택 > 인증 관리자 앱</p></figcaption></figure>
 
 #### QR 코드 표시 선택
 
@@ -69,7 +69,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 **사용자 추가**
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (9) (1) (2).png" alt=""><figcaption><p>사용자 생성 완료</p></figcaption></figure>
 
@@ -93,7 +93,7 @@ IAM 대시보드 > 오른쪽 상단의 AWS 계정 박스 > 이 계정 IAM 사용
 
 루트 사용자 계정이 아니므로 IAM 사용자라고 표시된다.
 
-![](<../.gitbook/assets/image (28) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (28) (1) (1).png>)
 
 
 

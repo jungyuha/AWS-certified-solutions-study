@@ -28,7 +28,7 @@ AWS 계정의 IAM 사용자 , 그룹 또는 역할에 연결된 정책을 테스
 
 #### 테스트하려는 서비스 선택 : EC2
 
-<figure><img src="../.gitbook/assets/image (7) (2) (2).png" alt=""><figcaption><p> 테스트하려는 서비스 선택 : EC2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p> 테스트하려는 서비스 선택 : EC2</p></figcaption></figure>
 
 #### 시뮬레이션 실행
 
@@ -38,7 +38,7 @@ EC2에 대한 FullAccess 권한이 있으므로 모두 allowed가 뜬다.
 
 #### 테스트하려는 서비스 선택 : S3
 
-<figure><img src="../.gitbook/assets/image (4) (2) (2).png" alt=""><figcaption><p> 테스트하려는 서비스 선택 : S3</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (2) (1).png" alt=""><figcaption><p> 테스트하려는 서비스 선택 : S3</p></figcaption></figure>
 
 #### 시뮬레이션 실행
 

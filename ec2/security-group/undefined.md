@@ -16,7 +16,7 @@
 
 * 나가고 들어오는 트래픽을 '보안그룹'이 필터링함
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p> EC2 인스턴스의 보안 그룹</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47) (1).png" alt=""><figcaption><p> EC2 인스턴스의 보안 그룹</p></figcaption></figure>
 
 ### 2) 인바운드와 아웃바운드 규칙 확인
 
@@ -49,7 +49,7 @@ HTTP 프로토콜이 보안그룹에서 허용이 되어있기 때문에 접속�
 
 SSH 프로토콜이 보안그룹에서 허용이 되어있기 때문이다.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt="" width="375"><figcaption><p> 원격 접속 가능</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57) (1).png" alt="" width="375"><figcaption><p> 원격 접속 가능</p></figcaption></figure>
 
 ### 4) 인바운드와 아웃바운드 규칙 편집
 

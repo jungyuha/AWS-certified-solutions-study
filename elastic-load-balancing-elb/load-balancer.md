@@ -14,7 +14,7 @@
 
 #### 예시 : Load Balancer
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p> Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p> Load Balancer</p></figcaption></figure>
 
 * 인터넷에 연결되어있는 클라이언트들이 있다.
 *   인터넷이 마주치는 로드 발란서 : **External 로드 발란서**
@@ -23,21 +23,21 @@
 
 
 
-    <figure><img src="../.gitbook/assets/image (23).png" alt="" width="249"><figcaption><p> External 로드 발란서</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (33).png" alt="" width="249"><figcaption><p> External 로드 발란서</p></figcaption></figure>
 *   AWS 내부에서 동작하는 로드발란서 : **Internal 로드 발란서**
 
     *   EC2 인스턴스가 하나의 데이터베이스에 모두 연결되는 게 아니라 Internal 로드 발란서를 통해서
 
         적절하게 트래픽을 라우팅 해준다.
 
-    <figure><img src="../.gitbook/assets/image (28).png" alt="" width="235"><figcaption><p> <strong>Internal 로드 발란서</strong></p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5).png" alt="" width="235"><figcaption><p> <strong>Internal 로드 발란서</strong></p></figcaption></figure>
 * 만약에 로드발란서가 없는 경우 여러 클라이언트가 동일한 서버로 접속을 하여 트래픽이 과부하 될 수 있다.
 * EC2 인스턴스 , 컨테이너 , IP 주소 등 여러 대상으로 자동으로 분산 가능
 * 비정상 대상을 감지하면 , 해당 대상으로 트래픽 라우팅을 중단하고 대상이 다시 정상으로 감지되면 트래픽을 해당 대상으로 다시 라우팅한다.
 
 #### 예시 : 만약 제일 위에 있는 PC가 로드 발란서를 통해 제일 위에 있는 EC2 인스턴스에 연결하고있다고 가정할 때
 
-<figure><img src="../.gitbook/assets/image (38).png" alt="" width="563"><figcaption><p>고가용성 구현</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (67).png" alt="" width="563"><figcaption><p>고가용성 구현</p></figcaption></figure>
 
 *   이 인스턴스가 문제가 생겨서 접속이 안되거나 다운이 된 경우 로드발란서가 자동으로 트래픽을 정상적인
 
@@ -50,7 +50,7 @@
 
 ### 1) Application Load Balancer
 
-<figure><img src="../.gitbook/assets/image (14).png" alt="" width="296"><figcaption><p> Application Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt="" width="296"><figcaption><p> Application Load Balancer</p></figcaption></figure>
 
 * 시험에 나오는 부분(기출)
 * Layer 7 에서 동작한다.
@@ -62,7 +62,7 @@
 
 ### 2) Network Load Balancer
 
-<figure><img src="../.gitbook/assets/image (33).png" alt="" width="293"><figcaption><p> Network Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="293"><figcaption><p> Network Load Balancer</p></figcaption></figure>
 
 * 시험에 나오는 부분(기출)
 * Layer 4 에서 동작한다.
@@ -74,7 +74,7 @@
 
 ### 3) Gateway Load Balancer
 
-<figure><img src="../.gitbook/assets/image (44).png" alt="" width="292"><figcaption><p> Gateway Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt="" width="292"><figcaption><p> Gateway Load Balancer</p></figcaption></figure>
 
 * Layer 3 에서 동작한다.
   * Gateway Load Balancer Endpoint
@@ -89,7 +89,7 @@
 
 ### 4) classic Load Balancer
 
-<figure><img src="../.gitbook/assets/image (32).png" alt="" width="291"><figcaption><p> classic Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt="" width="291"><figcaption><p> classic Load Balancer</p></figcaption></figure>
 
 * 이전 세대 로드발란서라서 더 이상 사용하지 않는다.
 * Layer 4 , Layer 7 에서 동작한다.
@@ -99,7 +99,7 @@
 
 ## Elastic Load Balancer 구성 (Gateway Load Balancer 제외 )
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p> Elastic Load Balancer 구성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p> Elastic Load Balancer 구성</p></figcaption></figure>
 
 * **클라이언트**가 있고 **Listener(로드 발란서)**와 **Target Group**이 있다.
 

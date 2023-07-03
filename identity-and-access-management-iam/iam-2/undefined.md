@@ -36,7 +36,7 @@ IAM 사용자 접속시 크롬의 시크릿창 모드로 들어가 로그인하�
 
 EC2에 대한 권한만 받았으므로 IAM 대시보드에 들어가면 다음과 같이 권한이 거부된 화면이 뜬다.
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>IAM 권한이 거부됨</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1) (2).png" alt=""><figcaption><p>IAM 권한이 거부됨</p></figcaption></figure>
 
 EC2는 권한이 있으므로 이용이 가능하다.
 
@@ -91,7 +91,7 @@ EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 
 인스턴스를 선택해 인스턴스 종료 버튼을 누르면 마찬가지로 오류가 뜬다.
 
-<figure><img src="../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption><p> 인스턴스 종료 버튼</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p> 인스턴스 종료 버튼</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption><p> 인스턴스 종료 제한</p></figcaption></figure>
 

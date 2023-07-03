@@ -84,7 +84,7 @@ AWS의 EC2 인스턴스는 가상머신이다.
 
 여기서는 EC\_Linux 인스턴스를 선택했다.
 
-![](<../.gitbook/assets/image (4) (2).png>)
+![](<../.gitbook/assets/image (4) (2) (2).png>)
 
 <figure><img src="../.gitbook/assets/image (21) (3).png" alt=""><figcaption><p>인스턴스로 EC_Linux를 선택</p></figcaption></figure>
 

@@ -25,7 +25,7 @@
 
 ## \[2] EC2 원격접속 방법 2 : RDP 연결 (Windows 인스턴스)
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption><p> RDP 연결 (Windows 인스턴스)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p> RDP 연결 (Windows 인스턴스)</p></figcaption></figure>
 
 * RDP 프로토콜을 이용해 Windows 인스턴스에 원격으로 연결 및 파일 전송 가능
 * RDP(Remote Desktop Protocol,원격 데스크탑 연결) 은 Windows OS 를 원격으로 접속하기 위한 방식
