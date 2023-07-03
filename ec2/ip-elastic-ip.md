@@ -24,7 +24,7 @@
 
 ### 예시 1. 인터넷,웹서버,기업 내부 사설망으로 구성될 때
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p> 인터넷,웹서버,기업 내부 사설망으로 구성될 때</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p> 인터넷,웹서버,기업 내부 사설망으로 구성될 때</p></figcaption></figure>
 
 #### **기업 내부 사설망**
 
@@ -102,7 +102,7 @@ public ip 주소를 보면 보이지 않는다.
 
 기본 설정 그래도 두고 '할당'을 클릭한다.
 
-<figure><img src="../.gitbook/assets/image (42) (1).png" alt="" width="375"><figcaption><p> 탄력적 IP 설정 </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42) (1) (1).png" alt="" width="375"><figcaption><p> 탄력적 IP 설정 </p></figcaption></figure>
 
 #### 탄력적IP 주소 목록 > 오른쪽 상단 '작업' 클릭 > '탄력적IP 주소 연결' 클릭
 

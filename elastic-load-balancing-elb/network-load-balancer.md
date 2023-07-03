@@ -6,7 +6,7 @@
 
 #### first registered : 2023-06-30 Fri
 
-#### last modified : 2023-06-30 Fri
+#### last modified : 2023-07-03 Mon
 
 ## \[1] Network Load Balancer의 특징
 
@@ -40,37 +40,60 @@
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 생성 > Network Load Balancer 선택
 
-* 로드 밸런서 이름 :NLB
-* 체계 : 인터넷 경계
-* IP 주소 유형 : IPv4
-* 네트워크 매핑 : 이 로드발란서가 위치할 가용영역을 선택 > 전부 다 선택한다.
-* 리스너 및 라우팅 : TCP / 80 프로토콜이 들어올 때 TG-NLB 타겟그룹에 전달하는 리스너를 만든다.
-  * 타겟그룹이 TCP이므로..
+<figure><img src="../.gitbook/assets/image (28).png" alt="" width="159"><figcaption><p> Network Load Balancer 선택 </p></figcaption></figure>
+
+*
+
+    <figure><img src="../.gitbook/assets/image (32).png" alt="" width="236"><figcaption><p>기본 구성</p></figcaption></figure>
+
+    * 로드 밸런서 이름 :NLB
+    * 체계 : 인터넷 경계
+    * IP 주소 유형 : IPv4
+* ![](<../.gitbook/assets/image (49).png>)
+  * 네트워크 매핑 : 이 로드발란서가 위치할 가용영역을 선택 > 전부 다 선택한다.
+*
+
+    <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p> 리스너 및 라우팅</p></figcaption></figure>
+
+    * 리스너 및 라우팅 : TCP / 80 프로토콜이 들어올 때 TG-NLB 타겟그룹에 전달하는 리스너를 만든다.
+      * 타겟그룹이 TCP이므로..
 * 나머지는 그대로 두고 로드밸런서를 생성한다.
 
 ### 로드발란서에 접속하는 방법
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 'DNS이름' 복사 > 브라우저에 복사
 
-* 172-31-35-68 라는 웹서버로 접속이 된다.
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>  'DNS이름' 복사</p></figcaption></figure>
+
+![](<../.gitbook/assets/image (70).png>)![](<../.gitbook/assets/image (12).png>)
+
+* 172-31-35-68 과 172.31.42.104라는 웹서버로 번갈아 접속이 된다.
   * 이 주소는 이전 시간에 만들었던 공용 IP의 웹서버이다.&#x20;
-* 만약 새로고침을 한다면 \~로 바뀐다. 즉, 2개의 웹서버가 로드밸런싱을 통해 번갈아가며 접속됨을 알 수 있다.
+    *
+
+        <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p> 172-31-35-68</p></figcaption></figure>
+    *
+
+        <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>172.31.42.104</p></figcaption></figure>
+* 즉, 2개의 웹서버가 로드밸런싱을 통해 번갈아가며 접속됨을 알 수 있다.
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택 > 아래 '리스너' 탭 > 리스너 조회
 
-#### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택 > 아래 '설명'탭 > '가용영역' 부분 >ipv4 조회
-
-* 아래 '상태검사'탭의 설정값에 따라 '대상' 탭에 있는 인스턴스의 '상태 확인' 값이 반영된다.
+#### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택 > 아래 '설명'탭 > '가용영역' 부분 >ipv4 조회 > 'AWS에서 할당'
 
 ### 고정 IP 주소 할당하기
 
 #### 왼쪽 메뉴 '네트워크 및 보안' > '탄력적 IP' 클릭 > 오른쪽 상단 '탄력적 IP 주소 할당' 선택 > 오른쪽 아래 '할당' 클릭
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p> 탄력적 IP 주소 할당</p></figcaption></figure>
 
 * 이름 : NLB\_IP
 
 #### 왼쪽 메뉴 '로드밸런싱' > '로드밸런서 생성' 클릭 > 'network Load Balancer' 클릭
 
 #### '네트워크 매핑' 탭 > 가용영역 > ipv4 설정 > ipv4 주소 > '탄력적 IP 주소 사용' 클릭
+
+<figure><img src="../.gitbook/assets/image (17).png" alt="" width="563"><figcaption><p> '네트워크 매핑' 탭 > 가용영역 > ipv4 설정 > ipv4 주소 > '탄력적 IP 주소 사용' 클릭</p></figcaption></figure>
 
 
 
