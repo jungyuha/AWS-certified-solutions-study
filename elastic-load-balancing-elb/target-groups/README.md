@@ -10,7 +10,7 @@
 
 ## Target의 유형 4가지
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p> Target의 유형 4가지</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Target의 유형 4가지</p></figcaption></figure>
 
 1. **인스턴스**
    * 개별 인스턴스 (EC2 Instance)
@@ -24,7 +24,7 @@
 
 ## Target에 대한 프로토콜 지정
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p> Target에 대한 프로토콜 지정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Target에 대한 프로토콜 지정</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="367"><figcaption><p>각 로드발란서의 프로토콜 설정</p></figcaption></figure>
 
@@ -42,11 +42,7 @@
 
 ## 상태 검사 (Health Checks)
 
-<<<<<<< HEAD
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p> 상태 검사 (Health Checks)</p></figcaption></figure>
-=======
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt="" width="563"><figcaption><p> 상태 검사 (Health Checks)</p></figcaption></figure>
->>>>>>> 7852428b5ec9e01ba27d77925f3752b5e23ba21b
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p>상태 검사 (Health Checks)</p></figcaption></figure>
 
 * 등록된 Target( 대상 ) 에게 상태 확인 메시지를 보내서 대상의 상태를 확인한다.
 

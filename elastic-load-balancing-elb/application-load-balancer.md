@@ -85,7 +85,7 @@
 
 
 
-    <figure><img src="../.gitbook/assets/image (11) (2).png" alt="" width="563"><figcaption><p> 172.31.35.68 인스턴스 접속</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p> 172.31.35.68 인스턴스 접속</p></figcaption></figure>
 * 즉, 2개의 웹서버가 로드밸런싱을 통해 번갈아가며 접속됨을 알 수 있다.
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택 > 아래 '리스너' 탭

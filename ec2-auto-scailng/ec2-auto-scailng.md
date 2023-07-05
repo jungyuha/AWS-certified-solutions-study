@@ -12,7 +12,7 @@
 
 ## \[1] EC2 Auto Scaling
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p> 최소 용량 , 원하는 용량 , 최대 용량을 설정한다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p> 최소 용량 , 원하는 용량 , 최대 용량을 설정한다.</p></figcaption></figure>
 
 * EC2 인스턴스를 자동으로 확장하고 축소하는 기능
 * 사용자가 정의한 조정 정책에 따라 인스턴스 수가 증가 되거나 축소된다.
@@ -118,7 +118,7 @@
 
 ## \[6] EC2 Auto Scaling-수명 주기 후크
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p> EC2 Auto Scaling-수명 주기</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p> EC2 Auto Scaling-수명 주기</p></figcaption></figure>
 
 * Auto Scaling 인스턴스 수명 주기의 이벤트를 인식한 다음 해당 수명 주기 이벤트가 발생할 때 사용자 지정 작업을 수행
 * 수명 주기

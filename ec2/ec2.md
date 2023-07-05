@@ -125,7 +125,7 @@
 
 **볼륨 유형 선택**&#x20;
 
-![](<../.gitbook/assets/image (11) (2) (1).png>)
+![](<../.gitbook/assets/image (11) (2).png>)
 
 **인스턴스 삭제 여부**
 

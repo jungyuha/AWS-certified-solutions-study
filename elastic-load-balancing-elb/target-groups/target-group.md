@@ -1,6 +1,6 @@
 # \[실습] Target Group 생성
 
-## \[실습] Target Group 생성
+\[실습] Target Group 생성
 
 **기록 ✍️**
 
@@ -27,40 +27,37 @@
 * **태그 이름** : EC2\_WEB
   * ![](<../../.gitbook/assets/image (25).png>)
 * **애플리케이션 및 OS 이미지** : Amazon Linux 2 AMI <<<<<<< HEAD
-  * <img src="../../.gitbook/assets/image (1).png" alt="" data-size="original">
-
-\=======
-
-* <img src="../../.gitbook/assets/image (1) (4).png" alt="" data-size="original">
-
-> > > > > > > 7852428b5ec9e01ba27d77925f3752b5e23ba21b
-
+  * <img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
 * **인스턴스 유형** : t2.micro
   * ![](<../../.gitbook/assets/image (46).png>)
 * **키페어(로그인)** : 이전시간에 지정한 EC2\_KEY
   * ![](<../../.gitbook/assets/image (31).png>)
 * **네트워크 설정** : 그대로 설정
-*   **보안그룹** : '보안그룹생성' 선택 > '편집' 클릭 \*
+* **보안그룹** : '보안그룹생성' 선택 > '편집' 클릭
+  *   기존 ssh 제거
 
-    ```
-    <figure><img src="../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption><p> '편집' 클릭</p></figcaption></figure>
-    ```
+      <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>기존 ssh 제거</p></figcaption></figure>
+  * **보안그룹이릅** : web\_access\_sg
+  * **설명** : web\_access\_sg&#x20;
+  * ![](<../../.gitbook/assets/image (4).png>)
 
-    *   기존 ssh 제거
+**보안그룹규칙1** 추가
 
-        <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>기존 ssh 제거</p></figcaption></figure>
-    * **보안그룹이릅** : web\_access\_sg
-    * **설명** : web\_access\_sg <<<<<<< HEAD
-    * ![](<../../.gitbook/assets/image (4).png>) =======
-    *
+* 유형 : HTTP
+* source type : Anywhere&#x20;
 
-        ![](<../../.gitbook/assets/image (4) (4).png>)
+&#x20;![](<../../.gitbook/assets/image (15).png>)&#x20;
 
-> > > > > > > 7852428b5ec9e01ba27d77925f3752b5e23ba21b \* **보안그룹규칙1** 추가 \* 유형 : HTTP \* source type : Anywhere \* ![](<../../.gitbook/assets/image (15).png>) \* **보안그룹규칙2** 추가 \* 유형 : HTTPS \* source type : Anywhere \* ![](<../../.gitbook/assets/image (22).png>)
+**보안그룹규칙2** 추가&#x20;
+
+* 유형 : HTTPS
+* source type : Anywhere&#x20;
+
+&#x20;![](<../../.gitbook/assets/image (22).png>)
 
 * **스토리지** : 그대로 설정
-* **고급세부정보** \*
-  *   \*\*사용자 데이터(User Data)\*\*에 웹서버를 생성하는 스크립트 추가
+* **고급세부정보**
+  *   사용자 데이터(User Data)\*\*에 웹서버를 생성하는 스크립트 추가
 
       ```
       #!/bin/bash
@@ -74,20 +71,8 @@
 
 **EC2 대시보드 > 왼쪽 메뉴 '인스턴스' 클릭**
 
-*   EC2\_WEB 인스턴스가 2개가 생성이 된 모습 \*
-
-    ```
-    <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p> EC2_WEB 인스턴스가 2개</p></figcaption></figure>
-    ```
-* public IP 주소를 복사하여 확인해본다. \*
-
-## <<<<<<< HEAD
-
-```
-  <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> public IP 주소 접속</p></figcaption></figure>
-```
-
-> > > > > > > 7852428b5ec9e01ba27d77925f3752b5e23ba21b
+* EC2\_WEB 인스턴스가 2개가 생성이 된 모습 확인
+* public IP 주소를 복사하여 확인해본다.&#x20;
 
 #### 2) 타겟그룹 생성하기
 
