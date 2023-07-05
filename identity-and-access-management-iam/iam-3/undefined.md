@@ -60,7 +60,7 @@ EC2 대시보드 접속 > 인스턴스 시작 버튼 클릭
 
 고급 세부정보 클릭 > IAM 인스턴스 프로파일 클릭해서 아까 만든 역할을 설정한다.
 
-<figure><img src="../../.gitbook/assets/image (11) (2) (1).png" alt=""><figcaption><p> EC2 인스턴스에 해당 역할 부여하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2) (1) (1).png" alt=""><figcaption><p> EC2 인스턴스에 해당 역할 부여하기</p></figcaption></figure>
 
 만들어진 EC2인스턴스에서 실행되는 애플리케이션은 S3와 RDS에 대해 FullAccess 권한을 갖게되어
 

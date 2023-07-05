@@ -12,7 +12,7 @@
 
 ## \[1] EC2 Auto Scaling
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>  최소 용량 , 원하는 용량 , 최대 용량을 설정한다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p> 최소 용량 , 원하는 용량 , 최대 용량을 설정한다.</p></figcaption></figure>
 
 * EC2 인스턴스를 자동으로 확장하고 축소하는 기능
 * 사용자가 정의한 조정 정책에 따라 인스턴스 수가 증가 되거나 축소된다.
@@ -27,15 +27,15 @@
 
 ## \[2] EC2 Auto Scaling 구성 요소
 
-1. <img src="../.gitbook/assets/image (8).png" alt="" data-size="line"> 오토 스케일링 그룹
+1. 오토 스케일링 그룹
    * EC2의 인스턴스의 그룹
-2. <img src="../.gitbook/assets/image (4).png" alt="" data-size="line"> 시작 템플릿 (런치 템플릿)
+2. 시작 템플릿 (런치 템플릿)
    * EC2 서버를 시작하기위한 AMI(Amazon Machine Image)
    *   이 Machine Image를 가지고 auto scailing에서 ec2 인스턴스를 추가하면서 늘려줄 때
 
        이 템플릿을 가지고 서버를 구성하게 된다.
    * 인스턴스 유형 정보를 가진 템플릿
-3. <img src="../.gitbook/assets/image.png" alt="" data-size="line"> 조정 옵션 (조정 정책)
+3. 조정 옵션 (조정 정책)
    * Auto Scaling을 실행하기 위한 조건
 
 ### EC2 Auto Scaling 설정 순서
@@ -118,7 +118,7 @@
 
 ## \[6] EC2 Auto Scaling-수명 주기 후크
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p> Auto Scaling-수명 주기</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p> EC2 Auto Scaling-수명 주기</p></figcaption></figure>
 
 * Auto Scaling 인스턴스 수명 주기의 이벤트를 인식한 다음 해당 수명 주기 이벤트가 발생할 때 사용자 지정 작업을 수행
 * 수명 주기
