@@ -77,7 +77,7 @@
 
 * 이름 : Cluster / 배치전략 : 클러스터
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption><p>클러스터 배치그룹</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt="" width="563"><figcaption><p>클러스터 배치그룹</p></figcaption></figure>
 
 * 이름 : Partition / 배치전략 : 파티션 / 파티션수 : 4
 

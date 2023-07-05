@@ -27,7 +27,7 @@
 * **태그 이름** : EC2\_WEB
   * ![](<../../.gitbook/assets/image (25).png>)
 * **애플리케이션 및 OS 이미지** : Amazon Linux 2 AMI
-  * <img src="../../.gitbook/assets/image (1).png" alt="" data-size="original">
+  * <img src="../../.gitbook/assets/image (1) (4).png" alt="" data-size="original">
 * **인스턴스 유형** : t2.micro
   * ![](<../../.gitbook/assets/image (46).png>)
 * **키페어(로그인)** : 이전시간에 지정한 EC2\_KEY
@@ -44,7 +44,7 @@
       <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p> 기존 ssh 제거</p></figcaption></figure>
   * **보안그룹이릅** : web\_access\_sg
   * **설명** : web\_access\_sg
-  * ![](<../../.gitbook/assets/image (4).png>)
+  * ![](<../../.gitbook/assets/image (4) (4).png>)
     * **보안그룹규칙1** 추가
       * 유형 : HTTP
       * source type : Anywhere
@@ -77,7 +77,7 @@
 * public IP 주소를 복사하여 확인해본다.
   *
 
-      <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p> public IP 주소 접속</p></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p> public IP 주소 접속</p></figcaption></figure>
 
 ### 2) 타겟그룹 생성하기
 

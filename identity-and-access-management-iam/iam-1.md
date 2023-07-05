@@ -54,7 +54,7 @@ IAM의 리전은 **글로벌**로 설정되어있다.
 
 #### 그룹이 없으니 그룹을 생성
 
-<figure><img src="../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption><p>사용자 권한 설정 : 그룹에 사용자 추가</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (2) (1).png" alt=""><figcaption><p>사용자 권한 설정 : 그룹에 사용자 추가</p></figcaption></figure>
 
 #### AWS에서 미리 만들어놓은 정책들 : 852개
 

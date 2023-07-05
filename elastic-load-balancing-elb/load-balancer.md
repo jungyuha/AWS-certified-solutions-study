@@ -50,7 +50,7 @@
 
 ### 1) Application Load Balancer
 
-<figure><img src="../.gitbook/assets/image (8).png" alt="" width="296"><figcaption><p> Application Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt="" width="296"><figcaption><p> Application Load Balancer</p></figcaption></figure>
 
 * 시험에 나오는 부분(기출)
 * Layer 7 에서 동작한다.
@@ -74,7 +74,7 @@
 
 ### 3) Gateway Load Balancer
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="292"><figcaption><p> Gateway Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt="" width="292"><figcaption><p> Gateway Load Balancer</p></figcaption></figure>
 
 * Layer 3 에서 동작한다.
   * Gateway Load Balancer Endpoint

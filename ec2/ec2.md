@@ -15,7 +15,7 @@
 
 ## \[2] EC2 인스턴스 생성 실습1 : Linux 인스턴스
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Linux 인스턴스 생성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption><p>Linux 인스턴스 생성</p></figcaption></figure>
 
 1. 이름 및 태그
 2. 애플리케이션 및 OS 이미지

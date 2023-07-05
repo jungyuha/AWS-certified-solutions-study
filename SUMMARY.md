@@ -40,3 +40,5 @@
     * [\[실습\] Target Group 생성](elastic-load-balancing-elb/target-groups/target-group.md)
   * [\[실습\] Application Load Balancer 생성](elastic-load-balancing-elb/application-load-balancer.md)
   * [\[실습\] Network Load Balancer 생성](elastic-load-balancing-elb/network-load-balancer.md)
+* [EC2 Auto Scailng](ec2-auto-scailng/README.md)
+  * [EC2 Auto Scailng 개요](ec2-auto-scailng/ec2-auto-scailng.md)

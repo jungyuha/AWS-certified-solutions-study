@@ -26,7 +26,7 @@
 
 #### 보안 그룹 대시보드 > 아래 탭 '인바운드 규칙 클릭'
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p> 인바운드 규칙</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p> 인바운드 규칙</p></figcaption></figure>
 
 * 모든 IP로부터의 (0.0.0.0/0) 웹서버 접속을 위한 HTTP 80 프로토콜 허용
 * 모든 IP로부터의 (0.0.0.0/0) SSH 접속을 허용
