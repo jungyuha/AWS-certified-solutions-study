@@ -42,7 +42,11 @@
 
 ## 상태 검사 (Health Checks)
 
+<<<<<<< HEAD
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p> 상태 검사 (Health Checks)</p></figcaption></figure>
+=======
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt="" width="563"><figcaption><p> 상태 검사 (Health Checks)</p></figcaption></figure>
+>>>>>>> 7852428b5ec9e01ba27d77925f3752b5e23ba21b
 
 * 등록된 Target( 대상 ) 에게 상태 확인 메시지를 보내서 대상의 상태를 확인한다.
 

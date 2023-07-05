@@ -85,7 +85,11 @@
 
 #### 왼쪽 메뉴 '네트워크 및 보안' > '탄력적 IP' 클릭 > 오른쪽 상단 '탄력적 IP 주소 할당' 선택 > 오른쪽 아래 '할당' 클릭
 
+<<<<<<< HEAD
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p> 탄력적 IP 주소 할당</p></figcaption></figure>
+=======
+<figure><img src="../.gitbook/assets/image (9) (4).png" alt=""><figcaption><p> 탄력적 IP 주소 할당</p></figcaption></figure>
+>>>>>>> 7852428b5ec9e01ba27d77925f3752b5e23ba21b
 
 * 이름 : NLB\_IP
 
