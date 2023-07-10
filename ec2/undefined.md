@@ -66,7 +66,7 @@ AWS의 EC2 인스턴스는 가상머신이다.
 
 <figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (24) (3).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (3) (1).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
 
 **설명** : EC2\_Linux2
 

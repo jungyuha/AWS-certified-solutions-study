@@ -31,15 +31,15 @@
 * **인스턴스 유형** : t2.micro
   * ![](<../../.gitbook/assets/image (46).png>)
 * **키페어(로그인)** : 이전시간에 지정한 EC2\_KEY
-  * ![](<../../.gitbook/assets/image (31).png>)
+  * ![](<../../.gitbook/assets/image (31) (3).png>)
 * **네트워크 설정** : 그대로 설정
 * **보안그룹** : '보안그룹생성' 선택 > '편집' 클릭
   *   기존 ssh 제거
 
-      <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>기존 ssh 제거</p></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (13) (3).png" alt=""><figcaption><p>기존 ssh 제거</p></figcaption></figure>
   * **보안그룹이릅** : web\_access\_sg
   * **설명** : web\_access\_sg&#x20;
-  * ![](<../../.gitbook/assets/image (4).png>)
+  * ![](<../../.gitbook/assets/image (4) (3).png>)
 
 **보안그룹규칙1** 추가
 
@@ -53,7 +53,7 @@
 * 유형 : HTTPS
 * source type : Anywhere&#x20;
 
-&#x20;![](<../../.gitbook/assets/image (22).png>)
+&#x20;![](<../../.gitbook/assets/image (22) (2).png>)
 
 * **스토리지** : 그대로 설정
 * **고급세부정보**
@@ -114,4 +114,4 @@
 
 **EC2 대시보드 > 왼쪽 메뉴 '로드밸런싱' > '대상그룹' 클릭 > 아무 대상 그룹 클릭 > 아래 탭 'Attribute' > 'Edit'**
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>로드밸런싱 속성 변경하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (3).png" alt=""><figcaption><p>로드밸런싱 속성 변경하기</p></figcaption></figure>

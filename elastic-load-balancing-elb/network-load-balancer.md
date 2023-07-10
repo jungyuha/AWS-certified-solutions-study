@@ -107,7 +107,7 @@
 
 #### '네트워크 매핑' 탭 > 가용영역 > ipv4 설정 > ipv4 주소 > '탄력적 IP 주소 사용' 클릭
 
-<figure><img src="../.gitbook/assets/image (17).png" alt="" width="563"><figcaption><p>'네트워크 매핑' 탭 > 가용영역 > ipv4 설정 > ipv4 주소 > '탄력적 IP 주소 사용' 클릭</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (4).png" alt="" width="563"><figcaption><p>'네트워크 매핑' 탭 > 가용영역 > ipv4 설정 > ipv4 주소 > '탄력적 IP 주소 사용' 클릭</p></figcaption></figure>
 
 {% hint style="danger" %}
 **로드밸런스와 탄력적 IP는 과금서비스이므로 실습 후 삭제한다.대상그룹도 삭제한다.**

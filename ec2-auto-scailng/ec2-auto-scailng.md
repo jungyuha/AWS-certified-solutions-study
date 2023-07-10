@@ -118,7 +118,7 @@
 
 ## \[6] EC2 Auto Scaling-수명 주기 후크
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p> EC2 Auto Scaling-수명 주기</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (4).png" alt=""><figcaption><p> EC2 Auto Scaling-수명 주기</p></figcaption></figure>
 
 * Auto Scaling 인스턴스 수명 주기의 이벤트를 인식한 다음 해당 수명 주기 이벤트가 발생할 때 사용자 지정 작업을 수행
 * 수명 주기

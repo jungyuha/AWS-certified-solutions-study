@@ -80,7 +80,7 @@ public ip 주소를 보면 보이지 않는다.
 
 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않으므로 1개를 지운다.
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p> 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않는다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption><p> 간혹 네트워크 인터페이스가 2개 이상이면 public IP가 부여되지 않는다.</p></figcaption></figure>
 
 #### 네트워크 인터페이스 분리 및 삭제
 

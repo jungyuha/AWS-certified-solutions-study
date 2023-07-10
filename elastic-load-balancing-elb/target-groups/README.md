@@ -24,7 +24,7 @@
 
 ## Target에 대한 프로토콜 지정
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Target에 대한 프로토콜 지정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (4).png" alt=""><figcaption><p>Target에 대한 프로토콜 지정</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="367"><figcaption><p>각 로드발란서의 프로토콜 설정</p></figcaption></figure>
 

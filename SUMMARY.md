@@ -43,3 +43,4 @@
 * [EC2 Auto Scailng](ec2-auto-scailng/README.md)
   * [EC2 Auto Scailng 개요](ec2-auto-scailng/ec2-auto-scailng.md)
   * [\[실습\] EC2 Auto Scaling 생성](ec2-auto-scailng/ec2-auto-scaling.md)
+  * [Page 1](ec2-auto-scailng/page-1.md)
