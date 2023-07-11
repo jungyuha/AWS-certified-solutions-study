@@ -66,7 +66,7 @@
 * 리스너 및 라우팅 : HTTP / 80 으로 전달이 될 때 대상그룹 TG-ALB로 전달하기로 설정한다.
   *
 
-      <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>  HTTP / 80 으로 전달이 될 때 대상그룹 TG-ALB로 전달하기로 설정</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (33) (3).png" alt=""><figcaption><p>  HTTP / 80 으로 전달이 될 때 대상그룹 TG-ALB로 전달하기로 설정</p></figcaption></figure>
 * 나머지는 그대로 두고 로드밸런서를 생성한다.
 
 ### 로드발란서에 접속하는 방법

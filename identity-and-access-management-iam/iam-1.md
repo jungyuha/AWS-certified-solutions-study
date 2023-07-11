@@ -99,5 +99,5 @@ IAM 대시보드 > 오른쪽 상단의 AWS 계정 박스 > 이 계정 IAM 사용
 
 **로그인 종류 : IAM 사용자 / root 사용자 선택**
 
-![](<../.gitbook/assets/image (26) (1).png>)
+![](<../.gitbook/assets/image (26) (1) (1).png>)
 

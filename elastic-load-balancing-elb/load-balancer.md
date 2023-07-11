@@ -87,7 +87,7 @@
 
 ### 4) classic Load Balancer
 
-<figure><img src="../.gitbook/assets/image (16).png" alt="" width="291"><figcaption><p>classic Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (2).png" alt="" width="291"><figcaption><p>classic Load Balancer</p></figcaption></figure>
 
 * 이전 세대 로드발란서라서 더 이상 사용하지 않는다.
 * Layer 4 , Layer 7 에서 동작한다.

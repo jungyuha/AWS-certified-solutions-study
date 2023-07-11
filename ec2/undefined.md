@@ -50,7 +50,7 @@ AWS의 EC2 인스턴스는 가상머신이다.
 
 #### EC2 대시보드 > 왼쪽 메뉴 > 네트워크 및 보안 > 네트워크 인터페이스
 
-<figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption><p> EC2 대시보드 > 왼쪽 메뉴 > 네트워크 및 보안 > 네트워크 인터페이스</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (2) (1).png" alt=""><figcaption><p> EC2 대시보드 > 왼쪽 메뉴 > 네트워크 및 보안 > 네트워크 인터페이스</p></figcaption></figure>
 
 **가용영역** : 이 네트워크 인터페이스가 생성된 곳이며 해당 EC2 인스턴스의 가용영역과 동일하다.
 
@@ -66,7 +66,7 @@ AWS의 EC2 인스턴스는 가상머신이다.
 
 <figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (24) (3) (1).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (3) (1) (1).png" alt="" width="563"><figcaption><p> 네트워크 인터페이스 생성 정보 </p></figcaption></figure>
 
 **설명** : EC2\_Linux2
 

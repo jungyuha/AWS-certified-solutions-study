@@ -73,7 +73,7 @@
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 'DNS이름' 복사 > 브라우저에 복사
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>'DNS이름' 복사</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>'DNS이름' 복사</p></figcaption></figure>
 
 ![](<../.gitbook/assets/image (70).png>) ![](<../.gitbook/assets/image (12).png>)
 
