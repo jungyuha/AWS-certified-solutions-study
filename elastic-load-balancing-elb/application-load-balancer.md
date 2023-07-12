@@ -19,7 +19,7 @@
 
 ## \[2] 리스너 규칙
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p> 리스너 규칙</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (3).png" alt=""><figcaption><p> 리스너 규칙</p></figcaption></figure>
 
 * 특정 조건값에 따라 특정 타겟 그룹으로 라우팅하는 것(트래픽을 전달)
 
@@ -75,7 +75,7 @@
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption><p>  'DNS이름' 복사</p></figcaption></figure>
 
-![](<../.gitbook/assets/image (70).png>)![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (70).png>)![](<../.gitbook/assets/image (12) (1).png>)
 
 *   172-31-35-68 과 172.31.42.104라는 웹서버로 번갈아 접속이 된다.
 
@@ -85,7 +85,7 @@
 
 
 
-    <figure><img src="../.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p> 172.31.35.68 인스턴스 접속</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption><p> 172.31.35.68 인스턴스 접속</p></figcaption></figure>
 * 즉, 2개의 웹서버가 로드밸런싱을 통해 번갈아가며 접속됨을 알 수 있다.
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 선택 > 아래 '리스너' 탭

@@ -70,7 +70,7 @@
   * **Quickstart AMI** : AWS에서 많이 사용하는 AMI 리스트들을 볼 수 있음
     *
 
-        <figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
+        <figure><img src="../.gitbook/assets/image (12) (1) (1) (2).png" alt=""><figcaption><p> <strong>Amazon Linux 2 AMI 선택</strong></p></figcaption></figure>
 
 
     *
@@ -95,7 +95,7 @@
 * 새 키페어 생성 클릭 > RSA 선택 , pem 선택 > 키페어 생성
   *
 
-      <figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="" width="375"><figcaption><p>  RSA 선택 , pem 선택 , 이름 설정</p></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (14) (1) (1) (2).png" alt="" width="375"><figcaption><p>  RSA 선택 , pem 선택 , 이름 설정</p></figcaption></figure>
 
 
 * 키 페어를 생성하고 나면 키페어가 다운로드 된다.(잘 보관하고 있어야한다.)
@@ -251,7 +251,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 인스턴스 설정 3 : 인스턴스 유형
 

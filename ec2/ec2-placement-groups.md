@@ -91,7 +91,7 @@
 
 * 오른쪽 인스턴수 개수를 10개로 설정한다.
 
-<figure><img src="../.gitbook/assets/image (7) (3).png" alt="" width="375"><figcaption><p> 인스턴수 개수를 10개로 설정</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (3) (1).png" alt="" width="375"><figcaption><p> 인스턴수 개수를 10개로 설정</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p> '배치그룹' 선택</p></figcaption></figure>
 

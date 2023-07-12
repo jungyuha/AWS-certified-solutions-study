@@ -63,7 +63,7 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 루트 사용자 계정에서 IAM 사용자의 권한 경계를 설정한다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p> IAM 사용자의 권한 경계를 설정</p></figcaption></figure>
 
 EC2 검색 > AmazonEC2ReadOnlyAccess 선택
 

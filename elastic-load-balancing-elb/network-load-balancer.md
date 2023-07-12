@@ -75,7 +75,7 @@
 
 <figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>'DNS이름' 복사</p></figcaption></figure>
 
-![](<../.gitbook/assets/image (70).png>) ![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (70).png>) ![](<../.gitbook/assets/image (12) (1).png>)
 
 * 172-31-35-68 과 172.31.42.104라는 웹서버로 번갈아 접속이 된다.
   *   이 주소는 이전 시간에 만들었던 공용 IP의 웹서버이다. \*

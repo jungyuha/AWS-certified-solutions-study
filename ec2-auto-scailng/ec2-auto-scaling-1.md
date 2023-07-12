@@ -61,7 +61,7 @@
 * 클라우드 watch 경보를 기반으로 크기를 조정한다.
 * 작업을 인스턴스의 용량 단위로 증가시키거나 / 백분율 단위로 증가시킬 수 있다.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt="" width="375"><figcaption><p> 단계 크기 조정 : 작업을 인스턴스의 용량 단위로 증가시키거나 / 백분율 단위로 증가시킬 수 있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (5).png" alt="" width="375"><figcaption><p> 단계 크기 조정 : 작업을 인스턴스의 용량 단위로 증가시키거나 / 백분율 단위로 증가시킬 수 있다.</p></figcaption></figure>
 
 #### 2.  단순 크기 조정
 
@@ -87,15 +87,15 @@
 
 <figure><img src="../.gitbook/assets/image (32) (4).png" alt="" width="563"><figcaption><p> 지표값이 있다.(평균 CPU 사용률 , 네트워크 , Application Load Balancer 요청 수 등)</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt="" width="329"><figcaption><p> target tracking Policy가 생성되고 왼쪽 '세부정보'탭에 따라 해당 용량이 조정된다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="329"><figcaption><p> target tracking Policy가 생성되고 왼쪽 '세부정보'탭에 따라 해당 용량이 조정된다.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (19).png" alt="" width="440"><figcaption><p> 최대 용량을 3으로 변경한다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (3).png" alt="" width="440"><figcaption><p> 최대 용량을 3으로 변경한다.</p></figcaption></figure>
 
 ## \[3] CPU 사용률을 높여보기
 
 #### '모니터링'탭 > 'EC2'탭 > CPU 사용률을 높여보기
 
-<figure><img src="../.gitbook/assets/image (13).png" alt="" width="563"><figcaption><p> '모니터링'탭 > 'EC2'탭 > CPU 사용률을 높여보기</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (4).png" alt="" width="563"><figcaption><p> '모니터링'탭 > 'EC2'탭 > CPU 사용률을 높여보기</p></figcaption></figure>
 
 #### 왼쪽 '인스턴스' 메뉴 > '인스턴스' 클릭
 
@@ -109,7 +109,7 @@
 
 
 
-    <figure><img src="../.gitbook/assets/image (24).png" alt="" width="498"><figcaption><p>EC2 원격 접속 - epel 레파지토리 설치</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (24) (4).png" alt="" width="498"><figcaption><p>EC2 원격 접속 - epel 레파지토리 설치</p></figcaption></figure>
 * stress 패키지 설치 : sudo yum install stress -y
 * stress 패키지는 cpu를 강제로 사용하는 소프트웨어이다.
 * cpu 사용량 강제로 늘리기 (cpu 10개 할당)
@@ -117,7 +117,7 @@
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>stress 패키지는 cpu를 강제로 사용하는 소프트웨어이다.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p> cpu 사용량 강제로 늘리기 (cpu 10개 할당)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p> cpu 사용량 강제로 늘리기 (cpu 10개 할당)</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (26).png" alt="" width="183"><figcaption><p> cpu 사용률이 거의 100% 찬 걸 확인할 수 있다.</p></figcaption></figure>
 
@@ -125,7 +125,7 @@
 
 'ASG' 오토스케일링그룹 클릭 > '인스턴스 관리 탭' 이동 - 인스턴스가 추가가 된 걸 확인할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt="" width="563"><figcaption><p> 인스턴스가 추가가 된 걸 확인할 수 있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt="" width="563"><figcaption><p> 인스턴스가 추가가 된 걸 확인할 수 있다.</p></figcaption></figure>
 
 ## \[4] CPU 사용률을 다시 낮춰보기
 
@@ -149,5 +149,5 @@
 
 * 인스턴스가 다시 1개로 줄어든 것을 확인할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt="" width="563"><figcaption><p> 인스턴스가 다시 1개로 줄어든 것을 확인할 수 있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (5).png" alt="" width="563"><figcaption><p> 인스턴스가 다시 1개로 줄어든 것을 확인할 수 있다.</p></figcaption></figure>
 

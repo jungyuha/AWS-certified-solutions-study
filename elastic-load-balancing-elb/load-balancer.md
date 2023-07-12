@@ -21,7 +21,7 @@
 
     * 인터넷을 통해 접속하는 클라이언트가 EC2 인스턴스에 골고루 접속되게 분산시킨다.
 
-    <figure><img src="../.gitbook/assets/image (27).png" alt="" width="249"><figcaption><p>External 로드 발란서</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (27) (2).png" alt="" width="249"><figcaption><p>External 로드 발란서</p></figcaption></figure>
 *   AWS 내부에서 동작하는 로드발란서 : **Internal 로드 발란서**
 
     *   EC2 인스턴스가 하나의 데이터베이스에 모두 연결되는 게 아니라 Internal 로드 발란서를 통해서
@@ -72,7 +72,7 @@
 
 ### 3) Gateway Load Balancer
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt="" width="292"><figcaption><p>Gateway Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (2).png" alt="" width="292"><figcaption><p>Gateway Load Balancer</p></figcaption></figure>
 
 * Layer 3 에서 동작한다.
   * Gateway Load Balancer Endpoint

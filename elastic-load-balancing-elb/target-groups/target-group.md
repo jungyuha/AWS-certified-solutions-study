@@ -25,7 +25,7 @@
   * ![](<../../.gitbook/assets/image (23).png>)
   * 2개의 인스턴스에 로드발란싱 처리를 할 것이다.
 * **태그 이름** : EC2\_WEB
-  * ![](<../../.gitbook/assets/image (25) (3).png>)
+  * ![](<../../.gitbook/assets/image (25).png>)
 * **애플리케이션 및 OS 이미지** : Amazon Linux 2 AMI <<<<<<< HEAD
   * <img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
 * **인스턴스 유형** : t2.micro
@@ -39,14 +39,14 @@
       <figure><img src="../../.gitbook/assets/image (13) (3).png" alt=""><figcaption><p>기존 ssh 제거</p></figcaption></figure>
   * **보안그룹이릅** : web\_access\_sg
   * **설명** : web\_access\_sg&#x20;
-  * ![](<../../.gitbook/assets/image (4) (3) (2).png>)
+  * ![](<../../.gitbook/assets/image (4) (3).png>)
 
 **보안그룹규칙1** 추가
 
 * 유형 : HTTP
 * source type : Anywhere&#x20;
 
-&#x20;![](<../../.gitbook/assets/image (15).png>)&#x20;
+&#x20;![](<../../.gitbook/assets/image (15) (1).png>)&#x20;
 
 **보안그룹규칙2** 추가&#x20;
 
