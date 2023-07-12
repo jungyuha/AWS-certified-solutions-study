@@ -44,3 +44,5 @@
   * [EC2 Auto Scailng 개요](ec2-auto-scailng/ec2-auto-scailng.md)
   * [\[실습\] EC2 Auto Scaling 생성](ec2-auto-scailng/ec2-auto-scaling.md)
   * [\[실습\] EC2 Auto Scaling 자동 크기 조정 정책](ec2-auto-scailng/ec2-auto-scaling-1.md)
+* [EC2 스토리지](ec2-1/README.md)
+  * [Elastic Block Store (EBS) 개요](ec2-1/elastic-block-store-ebs.md)

@@ -87,7 +87,7 @@
 
 <figure><img src="../.gitbook/assets/image (32) (4).png" alt="" width="563"><figcaption><p> 지표값이 있다.(평균 CPU 사용률 , 네트워크 , Application Load Balancer 요청 수 등)</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="329"><figcaption><p> target tracking Policy가 생성되고 왼쪽 '세부정보'탭에 따라 해당 용량이 조정된다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt="" width="329"><figcaption><p> target tracking Policy가 생성되고 왼쪽 '세부정보'탭에 따라 해당 용량이 조정된다.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (19).png" alt="" width="440"><figcaption><p> 최대 용량을 3으로 변경한다.</p></figcaption></figure>
 
