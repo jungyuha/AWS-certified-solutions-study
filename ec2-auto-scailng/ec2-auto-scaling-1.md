@@ -14,7 +14,7 @@
 
 *   인스턴스 1개가 생성이 되어있다.
 
-    <figure><img src="../.gitbook/assets/image (8).png" alt="" width="476"><figcaption><p> 인스턴스 1개가 생성이 되어있다.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8) (2).png" alt="" width="476"><figcaption><p> 인스턴스 1개가 생성이 되어있다.</p></figcaption></figure>
 *   '세부정보 탭'에 보면 용량 사이즈가 모두 1이기 때문이다.
 
     <figure><img src="../.gitbook/assets/image (22) (2).png" alt="" width="563"><figcaption><p> 용량 사이즈가 모두 1로 설정되어있기 때문이다.</p></figcaption></figure>
@@ -34,7 +34,7 @@
 
 동적 크기 , 예측 크기 , 예약된 작업 3가지로 구성되어 있다.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt="" width="375"><figcaption><p> 동적 크기 , 예측 크기 , 예약된 작업 3가지로 구성되어 있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (4).png" alt="" width="375"><figcaption><p> 동적 크기 , 예측 크기 , 예약된 작업 3가지로 구성되어 있다.</p></figcaption></figure>
 
 ### 1) 예약된 작업
 
@@ -42,7 +42,7 @@
 * 용량을 예약된 일정에 따라 작업을 할 수 있다.
 * 스케줄을 걸어 특정 시간대에 해당 용량으로 설정되게끔 한다.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt="" width="375"><figcaption><p> 스케줄을 걸어 특정 시간대에 해당 용량으로 설정되게끔 한다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt="" width="375"><figcaption><p> 스케줄을 걸어 특정 시간대에 해당 용량으로 설정되게끔 한다.</p></figcaption></figure>
 
 ### 2) 예측 크기 조정 영역
 
@@ -115,7 +115,7 @@
 * cpu 사용량 강제로 늘리기 (cpu 10개 할당)
 * \- stress -c 10
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>stress 패키지는 cpu를 강제로 사용하는 소프트웨어이다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (1).png" alt=""><figcaption><p>stress 패키지는 cpu를 강제로 사용하는 소프트웨어이다.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p> cpu 사용량 강제로 늘리기 (cpu 10개 할당)</p></figcaption></figure>
 
@@ -143,7 +143,7 @@
 
 * cpu 사용률이 거의 50% 아래로 낮아진 것을 확인할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (31).png" alt="" width="269"><figcaption><p> cpu 사용률이 거의 50% 아래로 낮아진 것을 확인할 수 있다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (4).png" alt="" width="269"><figcaption><p> cpu 사용률이 거의 50% 아래로 낮아진 것을 확인할 수 있다.</p></figcaption></figure>
 
 #### 왼쪽 메뉴 > auto scailing > auto scailing 그룹 'ASG' 오토스케일링그룹 클릭 > '인스턴스 관리 탭' 이동
 

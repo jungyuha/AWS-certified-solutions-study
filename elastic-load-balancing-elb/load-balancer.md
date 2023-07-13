@@ -60,7 +60,7 @@
 
 ### 2) Network Load Balancer
 
-<figure><img src="../.gitbook/assets/image (36).png" alt="" width="293"><figcaption><p>Network Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36) (1).png" alt="" width="293"><figcaption><p>Network Load Balancer</p></figcaption></figure>
 
 * 시험에 나오는 부분(기출)
 * Layer 4 에서 동작한다.
@@ -97,7 +97,7 @@
 
 ## Elastic Load Balancer 구성 (Gateway Load Balancer 제외 )
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Elastic Load Balancer 구성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37) (4).png" alt=""><figcaption><p>Elastic Load Balancer 구성</p></figcaption></figure>
 
 * **클라이언트**가 있고 **Listener(로드 발란서)**와 **Target Group**이 있다.
 

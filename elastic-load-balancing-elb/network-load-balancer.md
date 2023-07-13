@@ -40,7 +40,7 @@
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 생성 > Network Load Balancer 선택
 
-<figure><img src="../.gitbook/assets/image (28).png" alt="" width="159"><figcaption><p>Network Load Balancer 선택</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (3).png" alt="" width="159"><figcaption><p>Network Load Balancer 선택</p></figcaption></figure>
 
 *
 
@@ -99,7 +99,7 @@
 
 #### 왼쪽 메뉴 '네트워크 및 보안' > '탄력적 IP' 클릭 > 오른쪽 상단 '탄력적 IP 주소 할당' 선택 > 오른쪽 아래 '할당' 클릭
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>탄력적 IP 주소 할당</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>탄력적 IP 주소 할당</p></figcaption></figure>
 
 * 이름 : NLB\_IP
 

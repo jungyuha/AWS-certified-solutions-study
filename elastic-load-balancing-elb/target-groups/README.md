@@ -10,7 +10,7 @@
 
 ## Target의 유형 4가지
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Target의 유형 4가지</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p>Target의 유형 4가지</p></figcaption></figure>
 
 1. **인스턴스**
    * 개별 인스턴스 (EC2 Instance)
@@ -26,7 +26,7 @@
 
 <figure><img src="../../.gitbook/assets/image (21) (4) (1).png" alt=""><figcaption><p>Target에 대한 프로토콜 지정</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="367"><figcaption><p>각 로드발란서의 프로토콜 설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt="" width="367"><figcaption><p>각 로드발란서의 프로토콜 설정</p></figcaption></figure>
 
 #### ALB(Application Load Balancer)
 

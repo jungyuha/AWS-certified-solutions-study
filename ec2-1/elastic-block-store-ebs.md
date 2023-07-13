@@ -16,7 +16,7 @@
 
     * 하나만 생성하는 게 아니라 볼륨을 여러개 생성해서 하나의 EC2에 연결할 수 있다.
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt="" width="291"><figcaption><p> 하나만 생성하는 게 아니라 볼륨을 여러개 생성해서 하나의 EC2에 연결할 수 있다.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (5).png" alt="" width="291"><figcaption><p> 하나만 생성하는 게 아니라 볼륨을 여러개 생성해서 하나의 EC2에 연결할 수 있다.</p></figcaption></figure>
 * EBS와 EC2 는 동일한 가용영역에 있어야 연결 가능
 * 스냅샷 기능을 통해 EBS 볼륨을 백업할 수 있다.
 * 수명주기 관리자 (Data Life Cycle Manager) 정책을 통해 스냅샷 생성 일정을 자동화 가능
@@ -33,7 +33,7 @@
 
 #### 1) SSD TYPE
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="380"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt="" width="380"><figcaption></figcaption></figure>
 
 * 일반적으로 속도가 빠르다.
 * IOPS : 디스크를 읽고 쓰는 속도
@@ -45,7 +45,7 @@
 
 #### 2) HDD TYPE
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="383"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt="" width="383"><figcaption></figcaption></figure>
 
 * 일반적으로 속도가 느리다. 비용이 상대적으로 저렴하다.
 * 처리량 최적화 HDD
@@ -60,7 +60,7 @@
 * 일반적으로 하나의 EC2인스턴스에 여러 개의 EBS 볼륨을 연결한다.
 *   특정한 조건 아래서 하나의 EBS 볼륨이 여러개의 EC2인스턴스와 동시에 연결할 수 있는 기능이다.
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p> 하나의 EBS 볼륨이 여러개의 EC2인스턴스와 동시에 연결</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p> 하나의 EBS 볼륨이 여러개의 EC2인스턴스와 동시에 연결</p></figcaption></figure>
 
 #### 제약 조건
 

@@ -12,7 +12,7 @@
 
 ## \[1] EC2 Auto Scaling
 
-<figure><img src="../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p> 최소 용량 , 원하는 용량 , 최대 용량을 설정한다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (5) (1).png" alt=""><figcaption><p> 최소 용량 , 원하는 용량 , 최대 용량을 설정한다.</p></figcaption></figure>
 
 * EC2 인스턴스를 자동으로 확장하고 축소하는 기능
 * 사용자가 정의한 조정 정책에 따라 인스턴스 수가 증가 되거나 축소된다.

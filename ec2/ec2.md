@@ -39,7 +39,7 @@
 
 #### 현재 리전(서울)의 가용영역
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (3).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
 
 #### 인스턴스 시작
 
@@ -86,7 +86,7 @@
 
 인스턴스 유형은 머신의 하드웨어 사양이라고 생각하면 된다.
 
-<figure><img src="../.gitbook/assets/image (23) (2).png" alt=""><figcaption><p> 인스턴스 유형</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (2) (2).png" alt=""><figcaption><p> 인스턴스 유형</p></figcaption></figure>
 
 #### 인스턴스 설정 4 : 키페어
 

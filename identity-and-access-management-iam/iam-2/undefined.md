@@ -57,7 +57,7 @@ EC2는 권한이 있으므로 이용이 가능하다.
 
 인스턴스가 생성된 모습
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption><p> 인스턴스가 생성된 모습 </p></figcaption></figure>
 
 ## \[3] 권한 경계 기능으로 최대 권한 제한하기
 
@@ -117,4 +117,4 @@ IAM  > 정책 > 정책 생성 클릭
 
 EC2 검색 > 모든 EC2 작업 선택 > 모든 리소스 선택
 
-<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption><p> 시각적 편집기로 EC2FullAccess 정책 만들기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1) (1).png" alt=""><figcaption><p> 시각적 편집기로 EC2FullAccess 정책 만들기</p></figcaption></figure>

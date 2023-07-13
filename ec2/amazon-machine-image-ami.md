@@ -45,11 +45,11 @@
 
 #### quickstart ami : aws에서 일반적으로 제공하고 또 많이 사용하는 ami
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p> quickstart ami</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43) (2).png" alt=""><figcaption><p> quickstart ami</p></figcaption></figure>
 
 #### &#x20;내 ami : 사용자가 직접 인스턴스에서 ami를 만들어서 업로드하여 사용할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p> 내 ami</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48) (2).png" alt=""><figcaption><p> 내 ami</p></figcaption></figure>
 
 #### 마켓플레이스 ami&#x20;
 
@@ -57,7 +57,7 @@
 
 #### 커뮤니티 ami : 누구나 공유와 게시가 가능한 ami
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p> 커뮤니티 ami</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45) (1).png" alt=""><figcaption><p> 커뮤니티 ami</p></figcaption></figure>
 
 ### 내 인스턴스의 스냅샷 만들기 (백업 개념과 동일)
 

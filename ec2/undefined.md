@@ -38,7 +38,7 @@ AWS의 EC2 인스턴스는 가상머신이다.
 
 #### 특정 인스턴스를 클릭 > 네트워킹 탭 > 네트워크 인터페이스 확인
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p> 특정 인스턴스를 클릭 > 네트워킹 탭 > 네트워크 인터페이스 확인</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption><p> 특정 인스턴스를 클릭 > 네트워킹 탭 > 네트워크 인터페이스 확인</p></figcaption></figure>
 
 **VPC ID**  : 이 네트워크 인터페이스가 AWS의 가상 네트워크인 VPC에 연결이 되어있다.
 

@@ -22,14 +22,14 @@
 **EC2 대시보드 > 왼쪽 메뉴 '인스턴스' > '인스턴스 시작' 클릭**
 
 * **인스턴스 개수** : 2개
-  * ![](<../../.gitbook/assets/image (23).png>)
+  * ![](<../../.gitbook/assets/image (23) (2).png>)
   * 2개의 인스턴스에 로드발란싱 처리를 할 것이다.
 * **태그 이름** : EC2\_WEB
   * ![](<../../.gitbook/assets/image (25).png>)
 * **애플리케이션 및 OS 이미지** : Amazon Linux 2 AMI <<<<<<< HEAD
   * <img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
 * **인스턴스 유형** : t2.micro
-  * ![](<../../.gitbook/assets/image (46).png>)
+  * ![](<../../.gitbook/assets/image (46) (2).png>)
 * **키페어(로그인)** : 이전시간에 지정한 EC2\_KEY
   * ![](<../../.gitbook/assets/image (31) (3) (1).png>)
 * **네트워크 설정** : 그대로 설정
@@ -83,7 +83,7 @@
 
 **EC2 대시보드 > 왼쪽 메뉴 '로드밸런싱' > '대상그룹' 클릭 > 오른쪽 상단 'create target group' 클릭**
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>타겟그룹 생성하기</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (2).png" alt=""><figcaption><p>타겟그룹 생성하기</p></figcaption></figure>
 
 * **application 로드발란스** 전용
   * **target** : instance
@@ -108,7 +108,7 @@
 
 **EC2 대시보드 > 왼쪽 메뉴 '로드밸런싱' > '대상그룹' 클릭 > 특정 대상그룹 클릭(TG-ALB)**
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>타겟그룹에 등록된 인스턴스 목록</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39) (2).png" alt=""><figcaption><p>타겟그룹에 등록된 인스턴스 목록</p></figcaption></figure>
 
 #### 3) 로드밸런싱 속성 변경하기
 

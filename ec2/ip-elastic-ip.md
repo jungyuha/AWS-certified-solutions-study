@@ -106,7 +106,7 @@ public ip 주소를 보면 보이지 않는다.
 
 #### 탄력적IP 주소 목록 > 오른쪽 상단 '작업' 클릭 > '탄력적IP 주소 연결' 클릭
 
-<figure><img src="../.gitbook/assets/image (38) (2).png" alt=""><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38) (2) (1).png" alt=""><figcaption><p> 탄력적IP 주소 연결</p></figcaption></figure>
 
 #### 연결할 유형 '인스턴스' 선택 > 특정 인스턴스 선택 > 프라이빗 IP 주소 선택
 

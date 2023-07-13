@@ -51,16 +51,16 @@
 
 #### 왼쪽 메뉴 '로드 밸런싱' > 로드밸런서 > 로드밸런서 생성 > Applicaion Load Balancer 선택
 
-<figure><img src="../.gitbook/assets/image (40).png" alt="" width="172"><figcaption><p> Applicaion Load Balancer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40) (3).png" alt="" width="172"><figcaption><p> Applicaion Load Balancer</p></figcaption></figure>
 
-* ![](<../.gitbook/assets/image (44).png>)
+* ![](<../.gitbook/assets/image (44) (2).png>)
   * 로드 밸런서 이름 : ALB
   * 체계 : 인터넷 경계
   * IP 주소 유형 : IPv4
 * ![](<../.gitbook/assets/image (49).png>)
   * 네트워크 매핑 : 이 로드발란서가 위치할 가용영역을 선택 > 전부 다 선택한다.
 * 보안 그룹&#x20;
-  * ![](<../.gitbook/assets/image (42).png>)
+  * ![](<../.gitbook/assets/image (42) (2).png>)
     * default는 웹 트래픽이 허용되지 않은 상태이므로 삭제한다.
     * 웹서버 생성 때 만든 web\_accss\_sg 를 선택한다.
 * 리스너 및 라우팅 : HTTP / 80 으로 전달이 될 때 대상그룹 TG-ALB로 전달하기로 설정한다.
