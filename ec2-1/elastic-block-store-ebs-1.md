@@ -6,7 +6,7 @@
 
 #### first registered : 2023-07-12 Wed
 
-#### last modified : 2023-07-13 Thu
+#### last modified : 2023-07-14 Fri
 
 ## \[1] EC2 인스턴스 생성하기
 
@@ -49,20 +49,21 @@
     1.  EBS 볼륨의 크기(용량) 설정 가능
 
         <figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption><p> EBS 볼륨의 크기(용량)</p></figcaption></figure>
-    2.  EBS 볼륨 유형 설정 가능
+
+        1.  EBS 볼륨 유형 설정 가능
 
 
 
-        <figure><img src="../.gitbook/assets/image (13).png" alt="" width="375"><figcaption><p> EBS 볼륨 유형 설정 가능</p></figcaption></figure>
-    3.  EBS 볼륨 암호화 설정 가능
-
-        <figure><img src="../.gitbook/assets/image (27).png" alt="" width="375"><figcaption><p> EBS 볼륨 암호화 설정1</p></figcaption></figure>
+            <figure><img src="../.gitbook/assets/image (13).png" alt="" width="375"><figcaption><p> EBS 볼륨 유형 설정 가능</p></figcaption></figure>
+        2.  EBS 볼륨 암호화 설정 가능
 
 
 
-        <figure><img src="../.gitbook/assets/image (12).png" alt="" width="173"><figcaption><p> EBS 볼륨 암호화 설정2</p></figcaption></figure>
+            <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption><p>암호화 설정</p></figcaption></figure>
 
 
+
+            <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption><p> 암호화 미설정</p></figcaption></figure>
 
 ## \[2] 생성된 인스턴스 확인
 
@@ -132,9 +133,9 @@ EBS 볼륨은 동일한 가용영역 내에서만 연결이 가능하기 때문�
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p> 생성된 볼륨 선택</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="207"><figcaption><p> '볼륨 연결' 클릭</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="207"><figcaption><p> '볼륨 연결' 클릭</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p> 연결할 인스턴스 선택</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p> 연결할 인스턴스 선택</p></figcaption></figure>
 
 #### EC2 대시보드 > '인스턴스'  클릭 > 인스턴스 선택 > 아래 '스토리지' 탭 > 연결된 볼륨 확인
 
@@ -160,7 +161,9 @@ EBS 볼륨은 동일한 가용영역 내에서만 연결이 가능하기 때문�
 
 *   원본 볼륨이 암호화되어있지 않았었기 때문에 이 스냅샷도 암호화 되어있지 않다.
 
-    <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p> 암호화 되어있지 않다.</p></figcaption></figure>
+
+
+    <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption><p>  암호화 되어있지 않다.</p></figcaption></figure>
 
 #### 왼쪽 메뉴 'Elastic Block Store' > 스냅샷 메뉴 > 스냅샷 선택 > 오른쪽 상단 '작업' > '스냅샷에서 볼륨 생성' 클릭
 
@@ -189,7 +192,7 @@ EBS 볼륨은 동일한 가용영역 내에서만 연결이 가능하기 때문�
 
 #### 방법 1 : 왼쪽 메뉴 '이미지' > 'AMI' > 이미지 선택 > 오른쪽 상단  'AMI로 인스턴스 시작' 클릭 > EC2가 생성된다.
 
-<figure><img src="../.gitbook/assets/image (31).png" alt="" width="563"><figcaption><p> 'AMI로 인스턴스 시작</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption><p> AMI로 인스턴스 시작</p></figcaption></figure>
 
 #### 방법 2 : 왼쪽 메뉴 '인스턴스' > '인스턴스 생성' > '애플리케이션 및 OS 이미지' > '내 AMI' 선택 > 생성했던 이미지 선택
 
@@ -219,3 +222,83 @@ EBS 볼륨은 동일한 가용영역 내에서만 연결이 가능하기 때문�
 
 
 
+### 빠른속도로 스냅샷 복원하기
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 스냅샷 메뉴 > 스냅샷 선택 > 오른쪽 상단 '작업' > '빠른 스냅샷 복원 관리'
+
+*   가용 영역을 모두 체크하고 활성화 버튼 클릭
+
+
+
+    <figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>가용 영역을 모두 체크하고 활성화 버튼 클릭</p></figcaption></figure>
+
+
+
+    <figure><img src="../.gitbook/assets/image (110).png" alt="" width="375"><figcaption><p>활성화가 되어있다.</p></figcaption></figure>
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 스냅샷 메뉴 > 스냅샷 선택 > 오른쪽 상단 '작업' > '스냅샷에서 볼륨 생성'
+
+* EBS 볼륨을 만들어주면 스냅샷이 EBS 볼륨으로 빠르게 복원된다.(비용이 지출될 수 있음)
+  *   따라서 다시 들어가서 비활성화 해주면 된다.
+
+
+
+      <figure><img src="../.gitbook/assets/image (116).png" alt="" width="368"><figcaption><p> EBS 볼륨으로 빠르게 복원된다.</p></figcaption></figure>
+
+
+
+      <figure><img src="../.gitbook/assets/image (113).png" alt="" width="375"><figcaption><p> 다시 비활성화 시킨다.</p></figcaption></figure>
+
+### 일반 속도로 스냅샷 복원하기
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 스냅샷 메뉴 > 스냅샷 선택 > 오른쪽 상단 '작업' > '스냅샷에서 볼륨 생성'
+
+* 볼륨 유형 : 그대로 놔둔다.
+* 가용 영역을 지정한다. : **ap-northesast-2a**
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 볼륨 메뉴
+
+해당 스냅샷에서 볼륨이 생성된다.
+
+<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption><p> 해당 스냅샷에서 볼륨이 생성된다.</p></figcaption></figure>
+
+* 가용 영역이 **ap-northesast-2a** 이므로 **ap-northesast-2a**에 있는 EC2에만 이 볼륨 연결이 가능하다.
+* 현재 스토리지 티어는 '표준'으로 되어있다.
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 스냅샷 메뉴 > 스냅샷 선택 > 오른쪽 상단 '작업' > '아카이브 스냅샷'
+
+* 현재 스토리지 티어가 '표준'에서 '아카이브' 스토리지로 아카이브에 저장이 된다.(좀 더 저렴하게 보관 가능)
+
+### 스냅샷 삭제
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 스냅샷 메뉴 > 스냅샷 선택 > 오른쪽 상단 '작업' > '스냅샷 삭제'
+
+비용이 발생하므로 스냅샷을 삭제하도록 한다.
+
+* AMI에서 스냅샷을 사용하고 있기 때문에 바로 삭제가 안될 수도 있다.
+
+#### 왼쪽 메뉴 '이미지' > AMI 메뉴 > AMI 선택 > 오른쪽 상단 '작업' > 'AMI 등록 취소 '
+
+<figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption><p> AMI에서 스냅샷을 사용하고 있기 때문에 바로 삭제가 안될 수도 있다.</p></figcaption></figure>
+
+다시 스냅샷으로 돌아가 삭제 처리를 시도한다.
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 볼륨 메뉴 > 볼륨 선택 > 오른쪽 상단 '작업' 클릭 > '볼륨 삭제' 클릭
+
+* 볼륨 상태가 '사용 가능'인 경우에는 바로 삭제가 가능하다.
+
+#### 왼쪽 메뉴 'Elastic Block Store' > 볼륨 메뉴 > 볼륨 선택 > 오른쪽 상단 '작업' 클릭 > '볼륨 분리' 클릭
+
+* 볼륨 상태가 '사용중'인 경우에는 볼륨을 클릭하여 작업에서 볼륨 분리를 한다.
+*   볼륨을 분리하면 볼륨 상태가 '사용 가능'으로 바뀐다.
+
+
+
+    <figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption><p>볼륨 상태가 '사용 가능'으로 바뀐다.</p></figcaption></figure>
+
+
+* 볼륨 상태가 '사용 가능'으로 바뀌면 다시 볼륨 삭제를 시도한다.
+
+#### 왼쪽 메뉴 '인스턴스' > 인스턴스 메뉴 > 인스턴스 선택 > 오른쪽 상단 '인스턴스 상태' 클릭 > '인스턴스 종료' 클릭
+
+* 인스턴스를 삭제해주면 연결된 볼륨들도 같이 삭제된다.

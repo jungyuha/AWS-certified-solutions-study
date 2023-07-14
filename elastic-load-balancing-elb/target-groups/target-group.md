@@ -27,7 +27,7 @@
 * **태그 이름** : EC2\_WEB
   * ![](<../../.gitbook/assets/image (25).png>)
 * **애플리케이션 및 OS 이미지** : Amazon Linux 2 AMI <<<<<<< HEAD
-  * <img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
+  * <img src="../../.gitbook/assets/image (1) (1) (3).png" alt="" data-size="original">
 * **인스턴스 유형** : t2.micro
   * ![](<../../.gitbook/assets/image (46) (2).png>)
 * **키페어(로그인)** : 이전시간에 지정한 EC2\_KEY
