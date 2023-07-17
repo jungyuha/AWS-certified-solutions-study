@@ -35,7 +35,7 @@
 
 #### 예시 : 만약 제일 위에 있는 PC가 로드 발란서를 통해 제일 위에 있는 EC2 인스턴스에 연결하고있다고 가정할 때
 
-<figure><img src="../.gitbook/assets/image (67).png" alt="" width="563"><figcaption><p>고가용성 구현</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (67) (1).png" alt="" width="563"><figcaption><p>고가용성 구현</p></figcaption></figure>
 
 *   이 인스턴스가 문제가 생겨서 접속이 안되거나 다운이 된 경우 로드발란서가 자동으로 트래픽을 정상적인
 

@@ -48,3 +48,4 @@
   * [Elastic Block Store (EBS) 개요](ec2-1/elastic-block-store-ebs.md)
   * [\[실습\] Elastic Block Store (EBS)](ec2-1/elastic-block-store-ebs-1.md)
   * [Instance Store](ec2-1/instance-store.md)
+  * [Elastic File System (EFS)](ec2-1/elastic-file-system-efs.md)

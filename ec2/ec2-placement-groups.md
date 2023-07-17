@@ -85,7 +85,7 @@
 
 * 이름 : Spread / 배치전략 : 분산
 
-<figure><img src="../.gitbook/assets/image (64).png" alt="" width="563"><figcaption><p>분산 배치그룹</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (64) (1).png" alt="" width="563"><figcaption><p>분산 배치그룹</p></figcaption></figure>
 
 #### 왼쪽 메뉴 '인스턴스' > '인스턴스 시작' 클릭 > '고급 세부 정보' 탭 > '배치그룹' 선택
 
