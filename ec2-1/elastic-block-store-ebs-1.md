@@ -169,7 +169,7 @@ EBS 볼륨은 동일한 가용영역 내에서만 연결이 가능하기 때문�
 
 *   암호화된 EBS 볼륨을 생성시킨다.
 
-    <figure><img src="../.gitbook/assets/image (46).png" alt="" width="367"><figcaption><p>암호화된 볼륨 생성</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (46) (3).png" alt="" width="367"><figcaption><p>암호화된 볼륨 생성</p></figcaption></figure>
 
 
 * 이 암호화된 볼륨을 EC2 인스턴스에 연결하면 암호화된 볼륨으로 변경이 될 것이다.

@@ -54,7 +54,7 @@
 * IP 주소 유형 : IPv4
 ```
 
-* ![](<../.gitbook/assets/image (49).png>)
+* ![](<../.gitbook/assets/image (49) (2).png>)
   * 네트워크 매핑 : 이 로드발란서가 위치할 가용영역을 선택 > 전부 다 선택한다.
 *
 

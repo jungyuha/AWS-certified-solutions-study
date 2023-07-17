@@ -49,7 +49,7 @@
 
 #### &#x20;내 ami : 사용자가 직접 인스턴스에서 ami를 만들어서 업로드하여 사용할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (48) (2).png" alt=""><figcaption><p> 내 ami</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48) (2) (1).png" alt=""><figcaption><p> 내 ami</p></figcaption></figure>
 
 #### 마켓플레이스 ami&#x20;
 

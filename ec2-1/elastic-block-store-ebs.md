@@ -45,7 +45,7 @@
 
 #### 2) HDD TYPE
 
-<figure><img src="../.gitbook/assets/image (48).png" alt="" width="383"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48) (2).png" alt="" width="383"><figcaption></figcaption></figure>
 
 * 일반적으로 속도가 느리다. 비용이 상대적으로 저렴하다.
 * 처리량 최적화 HDD

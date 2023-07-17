@@ -43,7 +43,7 @@
 
 HTTP 프로토콜이 보안그룹에서 허용이 되어있기 때문에 접속이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55) (1).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 오른쪽 상단 연결 클릭 > 아래 연결 클릭 > 원격 접속 가능
 
@@ -75,11 +75,11 @@ HTTP 프로토콜이 보안그룹에서 삭제됐기 때문에 접속이 불가�
 
 * 아웃 바운드 규칙 삭제 => 나가는 모든 트래픽을 차단하게 된다.
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p> 아웃 바운드 규칙 삭제</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62) (1).png" alt=""><figcaption><p> 아웃 바운드 규칙 삭제</p></figcaption></figure>
 
 #### EC2 인스턴스 대시보드 > 퍼블릭 IPv4 주소 복사 > 브라우저에 붙여넣기 > 웹서버 접속 가능
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55) (1).png" alt="" width="375"><figcaption><p> 웹서버 접속 가능</p></figcaption></figure>
 
 * 상태저장 방화벽이기 떄문에 인바운드 규칙 허용시 아웃바운드 규칙은 체크하지 않는다.
 * 아웃바운드 규칙이 없어도 리턴 트래픽은 나갈 수 있다.(인바운드에 규칙이 있으므로)
