@@ -39,13 +39,13 @@
 
 #### 현재 리전(서울)의 가용영역
 
-<figure><img src="../.gitbook/assets/image (9) (1) (3).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (3) (1).png" alt="" width="375"><figcaption><p>해당 리전(서울)의 가용영역</p></figcaption></figure>
 
 #### 인스턴스 시작
 
 첫번째 방법 , 대시보드 > 인스턴스 시작
 
-![](<../.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (3).png>)
 
 두번째 방법 , 메뉴 > 인스턴스 > 인스턴스 시작
 

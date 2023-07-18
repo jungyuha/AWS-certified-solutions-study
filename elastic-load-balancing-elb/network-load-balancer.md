@@ -99,7 +99,7 @@
 
 #### 왼쪽 메뉴 '네트워크 및 보안' > '탄력적 IP' 클릭 > 오른쪽 상단 '탄력적 IP 주소 할당' 선택 > 오른쪽 아래 '할당' 클릭
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>탄력적 IP 주소 할당</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (3).png" alt=""><figcaption><p>탄력적 IP 주소 할당</p></figcaption></figure>
 
 * 이름 : NLB\_IP
 

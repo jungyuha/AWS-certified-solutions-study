@@ -12,7 +12,7 @@
 
 콘솔 홈 진입 => 오른쪽 상단의 "리전" 선택
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption><p>리전 선택</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption><p>리전 선택</p></figcaption></figure>
 
 ## \[2] EC2
 

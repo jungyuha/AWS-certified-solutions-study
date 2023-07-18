@@ -14,7 +14,7 @@
 
 *   인스턴스 1개가 생성이 되어있다.
 
-    <figure><img src="../.gitbook/assets/image (8) (2).png" alt="" width="476"><figcaption><p> 인스턴스 1개가 생성이 되어있다.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8) (2) (3).png" alt="" width="476"><figcaption><p> 인스턴스 1개가 생성이 되어있다.</p></figcaption></figure>
 *   '세부정보 탭'에 보면 용량 사이즈가 모두 1이기 때문이다.
 
     <figure><img src="../.gitbook/assets/image (22) (2).png" alt="" width="563"><figcaption><p> 용량 사이즈가 모두 1로 설정되어있기 때문이다.</p></figcaption></figure>
@@ -42,7 +42,7 @@
 * 용량을 예약된 일정에 따라 작업을 할 수 있다.
 * 스케줄을 걸어 특정 시간대에 해당 용량으로 설정되게끔 한다.
 
-<figure><img src="../.gitbook/assets/image (5) (2).png" alt="" width="375"><figcaption><p> 스케줄을 걸어 특정 시간대에 해당 용량으로 설정되게끔 한다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2) (2).png" alt="" width="375"><figcaption><p> 스케줄을 걸어 특정 시간대에 해당 용량으로 설정되게끔 한다.</p></figcaption></figure>
 
 ### 2) 예측 크기 조정 영역
 
@@ -77,7 +77,7 @@
 
 
 
-    <figure><img src="../.gitbook/assets/image (21) (4).png" alt="" width="563"><figcaption><p> 평균 CPU 사용률이 50% 이상 초과했을 시 인스턴스를 늘리는 조정 정책을 생성한다.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (21) (4) (2).png" alt="" width="563"><figcaption><p> 평균 CPU 사용률이 50% 이상 초과했을 시 인스턴스를 늘리는 조정 정책을 생성한다.</p></figcaption></figure>
 *   target tracking Policy가 생성되고 왼쪽 '세부정보'탭에 따라 해당 용량이 조정된다.
 
 
